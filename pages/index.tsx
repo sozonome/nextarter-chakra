@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import { Flex, Text, Box } from "@chakra-ui/core";
 
-export default function Home() {
+const Home = () => {
   return (
     <Layout>
       <Flex mb={8} width="full" justifyContent="center">
@@ -16,4 +16,6 @@ export default function Home() {
       </Flex>
     </Layout>
   );
-}
+};
+
+export default Home;
