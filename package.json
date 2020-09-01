@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prettify": "prettier --write pages/ components/"
+    "prettify": "prettier --write src/"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
