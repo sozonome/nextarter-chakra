@@ -1,5 +1,7 @@
 # nextjs-chakraui-ts
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/next-app-chakra-ts) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/next-app-chakra-ts)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), added with Chakra UI and TypeScript setup. No more time to waste just to setting up Chakra UI and TypeScript from the beginning. 
 
 ## Getting Started
