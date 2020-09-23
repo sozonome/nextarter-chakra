@@ -2,7 +2,7 @@ import { ThemeProvider, CSSReset } from "@chakra-ui/core";
 
 import Layout from "../components/layout";
 
-import customTheme from "../styles/theme";
+import customTheme from "../styles/customTheme";
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }) => {
