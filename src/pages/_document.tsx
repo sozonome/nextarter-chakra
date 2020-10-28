@@ -1,7 +1,8 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 const APP_NAME = "next-app-chakra-ts";
-const APP_DESCRIPTION = "Next.js app template with Chakra-UI, TypeScript, and PWA configured";
+const APP_DESCRIPTION =
+  "Next.js app template with Chakra-UI, TypeScript, and PWA configured";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
