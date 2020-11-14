@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Link } from "@chakra-ui/core";
+import { Box, Button, Heading, Link } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
 import SomeImage from "../components/SomeImage";
 
@@ -17,7 +17,7 @@ const Home = () => {
       <SomeImage />
 
       <Link href="https://github.com/sozonome/next-app-chakra-ts" isExternal>
-        <Button leftIcon={AiFillGithub}>Open in Github</Button>
+        <Button leftIcon={<AiFillGithub />}>Open in Github</Button>
       </Link>
     </Box>
   );
