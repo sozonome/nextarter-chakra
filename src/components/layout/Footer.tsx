@@ -1,4 +1,4 @@
-import { Flex, Text, Tooltip } from "@chakra-ui/core";
+import { Flex, Text, Tooltip } from "@chakra-ui/react";
 
 const Footer = () => {
   return (

@@ -1,4 +1,4 @@
-import { Flex, Tooltip, Heading } from "@chakra-ui/core";
+import { Flex, Tooltip, Heading } from "@chakra-ui/react";
 
 const Header = () => {
   return (
