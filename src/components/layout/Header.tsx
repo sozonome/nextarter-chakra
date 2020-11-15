@@ -1,4 +1,5 @@
-import { Flex, Tooltip, Heading } from "@chakra-ui/react";
+import { Flex, Tooltip, Heading, Box } from "@chakra-ui/react";
+import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   return (
@@ -6,10 +7,14 @@ const Header = () => {
       <Tooltip
         hasArrow
         aria-label="Header guide"
-        label="you can edit this Header in /src/components/layout/Header.tsx"
+        label="edit this Header in /src/components/layout/Header.tsx"
       >
-        <Heading as="h1">Site / App Title</Heading>
+        <Heading as="h1">nextchakra-starter</Heading>
       </Tooltip>
+
+      <Box marginLeft="auto">
+        <ThemeToggle />
+      </Box>
     </Flex>
   );
 };
