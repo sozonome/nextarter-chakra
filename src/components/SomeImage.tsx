@@ -4,8 +4,8 @@ import React from "react";
 
 const SomeImage = () => {
   return (
-    <Box marginY={8} maxWidth={400}>
-      <Image src="/undraw.png" unsized />
+    <Box marginY={8} maxWidth={400} marginLeft="auto" marginRight="auto">
+      <Image src="/Launching-amico.svg" unsized />
     </Box>
   );
 };

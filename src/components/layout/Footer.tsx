@@ -1,4 +1,4 @@
-import { Flex, Text, Tooltip } from "@chakra-ui/react";
+import { Flex, Link, Text, Tooltip } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
@@ -6,9 +6,14 @@ const Footer = () => {
       <Tooltip
         hasArrow
         aria-label="Footer guide"
-        label="you can edit this Footer in /src/components/layout/Footer.tsx"
+        label="edit this Footer in /src/components/layout/Footer.tsx"
       >
-        <Text>2020 - Footer Text Here</Text>
+        <Text>
+          2020 -{" "}
+          <Link href="https://sznm.dev" isExternal>
+            sznm.dev
+          </Link>
+        </Text>
       </Tooltip>
     </Flex>
   );
