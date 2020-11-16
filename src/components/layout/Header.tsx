@@ -1,16 +1,14 @@
-import { Flex, Tooltip, Heading, Box } from "@chakra-ui/react";
+import { Flex, Heading, Box } from "@chakra-ui/react";
+
+import AccessibleLink from "../AccessibleLink";
 import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   return (
     <Flex as="header" width="full" align="center">
-      <Tooltip
-        hasArrow
-        aria-label="Header guide"
-        label="edit this Header in /src/components/layout/Header.tsx"
-      >
+      <AccessibleLink href="/">
         <Heading as="h1">nextchakra-starter</Heading>
-      </Tooltip>
+      </AccessibleLink>
 
       <Box marginLeft="auto">
         <ThemeToggle />
