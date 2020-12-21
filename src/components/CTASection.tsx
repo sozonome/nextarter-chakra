@@ -6,7 +6,7 @@ const CTASection = () => {
 
   return (
     <Box textAlign="center" marginTop={8}>
-      <Link href="https://github.com/sozonome/next-app-chakra-ts" isExternal>
+      <Link href="https://github.com/sozonome/nextchakra-starter" isExternal>
         <Button isFullWidth={isSmallerThan600} leftIcon={<AiFillGithub />}>
           Open in Github
         </Button>
