@@ -1,6 +1,6 @@
 # nextchakra-starter
 
-![nextchakra-starter](https://socialify.git.ci/sozonome/nextchakra-starter/image?description=1&descriptionEditable=Template%20to%20quickly%20initialize%20nextjs%20app%20with%20Chakra%20UI%20%26%20Typescript%20setup&logo=https%3A%2F%2Fwww.flaticon.com%2Fsvg%2Fstatic%2Ficons%2Fsvg%2F2972%2F2972554.svg&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
+![nextchakra-starter](https://socialify.git.ci/sozonome/nextchakra-starter/image?description=1&descriptionEditable=Template%20to%20quickly%20initialize%20nextjs%20app%20with%20Chakra%20UI%20%26%20Typescript%20setup&logo=https%3A%2F%2Fsznm.dev%2Fapp_icons%2Fnextchakra-starter.svg&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextchakra-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextchakra-starter)
 
