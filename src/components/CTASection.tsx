@@ -1,4 +1,11 @@
-import { Box, Button, Link, useMediaQuery } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  Image,
+  Link,
+  useMediaQuery,
+} from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
 
 const CTASection = () => {
@@ -11,6 +18,20 @@ const CTASection = () => {
           Open in Github
         </Button>
       </Link>
+      <Flex marginY={4} justifyContent="center" gridGap={2}>
+        <Link
+          isExternal
+          href="https://vercel.com/import/git?s=https://github.com/sozonome/nextchakra-starter"
+        >
+          <Image src="https://vercel.com/button" />
+        </Link>
+        <Link
+          isExternal
+          href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextchakra-starter"
+        >
+          <Image src="https://www.netlify.com/img/deploy/button.svg" />
+        </Link>
+      </Flex>
     </Box>
   );
 };
