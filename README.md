@@ -20,6 +20,8 @@ You can either click `Use this template` button on this repository and clone the
 
 ```bash
 npx create-next-app <APP_NAME> --example https://github.com/sozonome/nextchakra-starter
+# or 
+yarn create next-app <APP_NAME> --example https://github.com/sozonome/nextchakra-starter
 ```
 
 Then, run the development server:
