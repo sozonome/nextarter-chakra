@@ -42,3 +42,11 @@ You can start editing the page by modifying `src/pages/index.js`. The page auto-
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [Chakra UI](https://chakra-ui.com)
 - [TypeScript](https://typescriptlang.org)
+
+## todo
+
+- [ ] upgrade `next` to latest version when a version which are compatible with latest `next-pwa` is ready.
+  - references:
+    - https://github.com/shadowwalker/next-pwa/issues/151
+    - https://github.com/vercel/next.js/issues/21679
+  - current: lock the `next` version to `10.0.5`
