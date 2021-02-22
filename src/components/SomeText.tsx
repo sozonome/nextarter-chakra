@@ -16,7 +16,7 @@ const SomeText = () => {
         padding={4}
         borderRadius={4}
       >
-        <Text d="flex" alignItems="center" fontSize="sm">
+        <Box d="flex" alignItems="center" fontSize="sm">
           This is a
           <HelperImage src="/nextjs-black-logo.svg" label="NextJS" />
           app with
@@ -27,7 +27,7 @@ const SomeText = () => {
           and
           <HelperImage src="/ts-logo-512.svg" label="TypeScript" />
           setup.
-        </Text>
+        </Box>
       </Box>
     </>
   );
