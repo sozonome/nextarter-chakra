@@ -6,8 +6,8 @@ import Footer from "./Footer";
 import Meta from "./Meta";
 
 type LayoutProps = {
-  children: ReactNode
-}
+  children: ReactNode;
+};
 
 const Layout = ({ children }: LayoutProps) => {
   return (

@@ -5,7 +5,7 @@ const APP_DESCRIPTION =
   "Next.js app template with Chakra-UI, TypeScript, and PWA configured";
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx:any) {
+  static async getInitialProps(ctx: any) {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
   }
