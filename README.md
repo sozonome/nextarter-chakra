@@ -9,7 +9,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), added with [**Chakra UI**](https://chakra-ui.com) and [**TypeScript**](https://typescriptlang.org) setup.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), added with [**Chakra UI**](https://chakra-ui.com) and [**TypeScript**](https://www.typescriptlang.org) setup.
 Start developing right away!
 
 ![NextChakra-Starter](/public/next-app-chakra-ts.png)
