@@ -1,4 +1,4 @@
-import { Flex, Heading, Box } from "@chakra-ui/react";
+import { Box, Flex, Heading } from "@chakra-ui/layout";
 
 import AccessibleLink from "../AccessibleLink";
 import ThemeToggle from "./ThemeToggle";

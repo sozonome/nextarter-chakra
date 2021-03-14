@@ -1,4 +1,5 @@
-import { Box, Tooltip } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/layout";
+import { Tooltip } from "@chakra-ui/tooltip";
 import Image from "next/image";
 
 type HelperImageProps = {

@@ -1,11 +1,7 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Image,
-  Link,
-  useMediaQuery,
-} from "@chakra-ui/react";
+import { Button } from "@chakra-ui/button";
+import { Image } from "@chakra-ui/image";
+import { Box, Flex, Link } from "@chakra-ui/layout";
+import { useMediaQuery } from "@chakra-ui/media-query";
 import { AiFillGithub } from "react-icons/ai";
 
 const CTASection = () => {

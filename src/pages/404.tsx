@@ -1,12 +1,7 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Text,
-  Image,
-  Link as ChakraLink,
-  useColorMode,
-} from "@chakra-ui/react";
+import { Button } from "@chakra-ui/button";
+import { useColorMode } from "@chakra-ui/color-mode";
+import { Image } from "@chakra-ui/image";
+import { Box, Heading, Text, Link as ChakraLink } from "@chakra-ui/layout";
 import Link from "next/link";
 
 const Page404 = () => {

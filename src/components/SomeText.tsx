@@ -1,4 +1,5 @@
-import { Box, Heading, useColorMode } from "@chakra-ui/react";
+import { useColorMode } from "@chakra-ui/color-mode";
+import { Box, Heading } from "@chakra-ui/layout";
 
 import HelperImage from "./HelperImage";
 
