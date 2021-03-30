@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <Flex as="footer" width="full" align="center">
       <Text>
-        2020 -{" "}
+        {new Date().getFullYear()} -{" "}
         <Link href="https://sznm.dev" isExternal>
           sznm.dev
         </Link>

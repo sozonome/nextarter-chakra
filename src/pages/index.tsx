@@ -1,8 +1,8 @@
 import { Box } from "@chakra-ui/layout";
 
-import SomeText from "../components/SomeText";
-import SomeImage from "../components/SomeImage";
-import CTASection from "../components/CTASection";
+import SomeText from "components/SomeText";
+import SomeImage from "components/SomeImage";
+import CTASection from "components/CTASection";
 
 const Home = () => {
   return (

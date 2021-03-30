@@ -1,18 +1,13 @@
 import { Button } from "@chakra-ui/button";
 import { Image } from "@chakra-ui/image";
 import { Box, Flex, Link } from "@chakra-ui/layout";
-import { useMediaQuery } from "@chakra-ui/media-query";
 import { AiFillGithub } from "react-icons/ai";
 
 const CTASection = () => {
-  const [isSmallerThan600] = useMediaQuery("(max-width: 600px)");
-
   return (
     <Box textAlign="center" marginTop={8}>
       <Link href="https://github.com/sozonome/nextchakra-starter" isExternal>
-        <Button isFullWidth={isSmallerThan600} leftIcon={<AiFillGithub />}>
-          Open in Github
-        </Button>
+        <Button leftIcon={<AiFillGithub />}>Open in Github</Button>
       </Link>
       <Flex marginY={4} justifyContent="center" gridGap={2}>
         <Link
