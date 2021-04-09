@@ -2148,6 +2148,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
+"@fontsource/lexend@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.2.1.tgz#6430f905c6c8b7233ba25fa5dc5d6af88d5010e8"
+  integrity sha512-Ph3P11op9dO/jAxhN02VZpRdMYrmXq9f+hdIzuNKhXeFz/oe91JzPKYAbgjS9ym3GvF0MD3PKCMAEixSXuemAA==
+
 "@hapi/accept@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.1.tgz#068553e867f0f63225a506ed74e899441af53e10"
