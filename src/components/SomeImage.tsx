@@ -1,6 +1,8 @@
-import { Link, Text } from "@chakra-ui/layout";
+import { Flex, Link, Text } from "@chakra-ui/layout";
 import Image from "next/image";
 import React from "react";
+
+import HelperImage from "./HelperImage";
 import MotionBox from "./motion/Box";
 
 const SomeImage = () => {
@@ -10,7 +12,7 @@ const SomeImage = () => {
         animate={{ y: 20, scale: 0.97 }}
         transition={{ repeat: Infinity, duration: 2, repeatType: "reverse" }}
         marginY={8}
-        maxWidth={400}
+        maxWidth={[280, 400]}
         marginX="auto"
       >
         <Image
@@ -25,6 +27,12 @@ const SomeImage = () => {
           Illustration by Freepik Stories
         </Link>
       </Text>
+
+      <Flex marginY={4} justifyContent="center" alignItems="center">
+        <HelperImage src="/nextjs-black-logo.svg" label="NextJS" />
+        <HelperImage src="/chakra-ui-logomark-colored.svg" label="Chakra UI" />
+        <HelperImage src="/ts-logo-512.svg" label="TypeScript" />
+      </Flex>
     </>
   );
 };

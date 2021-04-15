@@ -1,8 +1,6 @@
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Box, Heading } from "@chakra-ui/layout";
 
-import HelperImage from "./HelperImage";
-
 const SomeText = () => {
   const { colorMode } = useColorMode();
 
@@ -18,16 +16,7 @@ const SomeText = () => {
         borderRadius={4}
       >
         <Box d="flex" alignItems="center" fontSize="sm">
-          This is a
-          <HelperImage src="/nextjs-black-logo.svg" label="NextJS" />
-          app with
-          <HelperImage
-            src="/chakra-ui-logomark-colored.svg"
-            label="Chakra UI"
-          />
-          and
-          <HelperImage src="/ts-logo-512.svg" label="TypeScript" />
-          setup.
+          This is a Next.js app with Chakra-UI and TypeScript setup.
         </Box>
       </Box>
     </>

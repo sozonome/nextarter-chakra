@@ -2,8 +2,9 @@ import { Button } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Image } from "@chakra-ui/image";
 import { Box, Heading, Text, Link as ChakraLink } from "@chakra-ui/layout";
-import MotionBox from "components/motion/Box";
 import Link from "next/link";
+
+import MotionBox from "components/motion/Box";
 
 const Page404 = () => {
   const { colorMode } = useColorMode();
