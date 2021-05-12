@@ -22,7 +22,7 @@
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^3.1.0",
+    "@netlify/plugin-nextjs": "^3.2.2",
     "@types/node": "^15.0.1",
     "@types/react": "^17.0.4",
     "prettier": "^2.2.1",
