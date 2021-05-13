@@ -17,13 +17,12 @@
     "framer-motion": "^4.1.11",
     "next": "^10.2.0",
     "next-pwa": "^5.2.21",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^3.2.2",
-    "@types/node": "^15.0.3",
     "@types/react": "^17.0.5",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
