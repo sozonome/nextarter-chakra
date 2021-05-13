@@ -2510,10 +2510,10 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@netlify/plugin-nextjs@^3.1.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-3.2.0.tgz#9ea7a5c42531cc0b1aa5caefdba91fa0e1d2ed8a"
-  integrity sha512-OkC+n2wQkfg7torHdy6scWzw4EOhUkvQzdPQxhx2HVd18mVnOndPuBC1/hfXED5J1pr1H7R5RXHjVspe7BxG/Q==
+"@netlify/plugin-nextjs@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-3.2.2.tgz#d8910d8ad08d4032b3b0e2bbdbcbf40ad11de494"
+  integrity sha512-DRL3lLhckbZ/JUTxV85za/95/RR9QJCGLL9D3nwidGmvMTn/8YgtHXNW31/j3jA4THKBw+IpC6vcp8qEMI7FsQ==
   dependencies:
     "@sls-next/lambda-at-edge" "^1.5.2"
     adm-zip "^0.5.4"
