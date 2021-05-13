@@ -4924,10 +4924,10 @@ needle@^2.2.1:
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
-next-pwa@^5.2.15:
-  version "5.2.15"
-  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.2.15.tgz#5e2dc6054267fa5a6445fc4336533177ae7ce9ae"
-  integrity sha512-lJ1BIwV3fel8BZbG06Cjr/EdKJRti3XzWuH3eF4Mxnm4KJ9P+EPbJzWyQAzaf7JVrRH0zZWUCcN7NrUBw220nw==
+next-pwa@^5.2.21:
+  version "5.2.21"
+  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.2.21.tgz#fb71ba35b1a984ec6641c5def64ca8c0ab9c2b0f"
+  integrity sha512-jL782UGX0E59TmmYi1xe5kgImeGPBO3me/b3RX7bLP0eG8oJeZiJqTVkc5DJNmXgdwOc6RSvRSOUdBQ9zLu4RA==
   dependencies:
     babel-loader "^8.2.2"
     clean-webpack-plugin "^3.0.0"

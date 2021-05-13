@@ -16,7 +16,7 @@
     "@fontsource/lexend": "^4.2.1",
     "framer-motion": "^4.1.11",
     "next": "^10.2.0",
-    "next-pwa": "^5.2.15",
+    "next-pwa": "^5.2.21",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0"
