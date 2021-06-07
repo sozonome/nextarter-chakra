@@ -13,18 +13,18 @@
     "@chakra-ui/react": "^1.6.2",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
-    "@fontsource/lexend": "^4.4.0",
+    "@fontsource/lexend": "^4.4.5",
     "framer-motion": "^4.1.17",
-    "next": "^10.2.0",
+    "next": "^10.2.3",
     "next-pwa": "^5.2.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^3.3.1",
+    "@netlify/plugin-nextjs": "^3.4.2",
     "@types/react": "^17.0.8",
     "prettier": "^2.2.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.2"
   }
 }
