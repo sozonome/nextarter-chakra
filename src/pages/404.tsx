@@ -32,12 +32,12 @@ const Page404 = () => {
         <Heading textAlign="center">Page not Found.</Heading>
 
         <Box textAlign="center" marginTop={4}>
-          <Text>It's Okay!</Text>
+          <Text>{"It's Okay!"}</Text>
           <Link href="/" passHref>
             <Button
               backgroundColor={colorMode === "light" ? "gray.300" : "teal.500"}
             >
-              Let's Head Back
+              {"Let's Head Back"}
             </Button>
           </Link>
         </Box>
