@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettify": "prettier --write src/"
+    "prettify": "prettier --write src"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.3",

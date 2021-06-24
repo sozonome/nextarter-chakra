@@ -7,4 +7,4 @@ const hello = (req: NextApiRequest, res: NextApiResponse) => {
   res.json({ name: "John Doe" });
 };
 
-export default hello
+export default hello;
