@@ -11,7 +11,7 @@
     "prettify": "prettier --write src"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.3",
+    "@chakra-ui/react": "^1.6.4",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "@fontsource/lexend": "^4.4.5",
