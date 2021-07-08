@@ -1,4 +1,4 @@
-import { Flex, Link, Text } from "@chakra-ui/layout";
+import { Flex, Link, Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (

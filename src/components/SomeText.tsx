@@ -1,5 +1,4 @@
-import { useColorMode } from "@chakra-ui/color-mode";
-import { Box, Heading } from "@chakra-ui/layout";
+import { Box, Heading, useColorMode } from "@chakra-ui/react";
 
 const SomeText = () => {
   const { colorMode } = useColorMode();
