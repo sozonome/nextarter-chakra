@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettify": "prettier --write src"
+    "format": "prettier --write src",
+    "pre-commit": "lint-staged",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.4",
@@ -27,7 +29,14 @@
     "@types/react": "^17.0.11",
     "eslint": "^7.28.0",
     "eslint-config-next": "^11.0.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
     "typescript": "^4.3.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "vivaxy.vscode-conventional-commits",
+    "coenraads.bracket-pair-colorizer",
+    "dsznajder.es7-react-js-snippets",
+    "mhutchie.git-graph",
+    "oderwat.indent-rainbow"
+  ]
+}
