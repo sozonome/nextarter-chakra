@@ -13,7 +13,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.4",
+    "@chakra-ui/react": "^1.6.5",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "@fontsource/lexend": "^4.4.5",
