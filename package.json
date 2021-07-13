@@ -16,7 +16,7 @@
     "@chakra-ui/react": "^1.6.4",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
-    "@fontsource/lexend": "^4.4.5",
+    "@fontsource/lexend": "^4.5.0",
     "framer-motion": "^4.1.17",
     "next": "^11.0.0",
     "next-pwa": "^5.2.23",
