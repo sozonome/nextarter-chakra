@@ -2209,10 +2209,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/lexend@^4.4.5":
-  version "4.4.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.4.5.tgz#d4700cade416f9984923d4130507e0c8d1f30af2"
-  integrity sha512-JRGHsXyso9V4dfTFbHIlFJTFhdmw00IIvF2SYZLfZEXDLEyStn4fRX7GajE+kKOVFv97EGFQ4YEeFbgCK1KEsA==
+"@fontsource/lexend@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.5.0.tgz#bb15505d1597e9d66b2ebcd1ef5ed8ba1bbd1239"
+  integrity sha512-WRyAtWH8qXPQLw9pvVw+8V2dC1ati3QCQhKBw5qbBgEcDcvYXilRcXOx59vtq/+SwqeAX1RKOWTALuhwJGcKXw==
 
 "@hapi/accept@5.0.1":
   version "5.0.1"
