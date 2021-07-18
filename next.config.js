@@ -12,5 +12,4 @@ module.exports = withPWA({
     dest: "public",
     register: true,
   },
-  target: "serverless",
 });
