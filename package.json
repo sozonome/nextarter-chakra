@@ -10,7 +10,6 @@
     "lint": "next lint",
     "format": "prettier --write src",
     "up-latest": "yarn upgrade-interactive --latest",
-    "pre-commit": "lint-staged",
     "prepare": "husky install"
   },
   "dependencies": {
