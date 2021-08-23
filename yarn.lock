@@ -1416,20 +1416,10 @@
   dependencies:
     "@chakra-ui/utils" "1.8.2"
 
-"@chakra-ui/utils@1.8.2":
+"@chakra-ui/utils@1.8.2", "@chakra-ui/utils@^1.7.0":
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.8.2.tgz#5a9f1f67c5f2232769fe7d009fcf96eebf3c2b4e"
   integrity sha512-MnE4czCQCE87Ch1DfAdmZvObgRviw9wQ9Zti372P8VD1ILEdff/C5WBWHW6mgG3YcorPAxgnrNF3MmNE95jRkA==
-  dependencies:
-    "@types/lodash.mergewith" "4.6.6"
-    css-box-model "1.2.1"
-    framesync "5.3.0"
-    lodash.mergewith "4.6.2"
-
-"@chakra-ui/utils@^1.7.0":
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.8.1.tgz#9778e4e8776da0ed4dc0051755d79002d2f21ec2"
-  integrity sha512-v0xL9U2ozDbHCl2kQTdJNOjUGT7ZjyFwEYuMW02ZaLkmLPj2w3G592iOsJ9Z9sBemQgoOrZGyTWqdxm6rhxJug==
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
@@ -1972,10 +1962,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react@^17.0.18":
-  version "17.0.18"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.18.tgz#4109cbbd901be9582e5e39e3d77acd7b66bb7fbe"
-  integrity sha512-YTLgu7oS5zvSqq49X5Iue5oAbVGhgPc5Au29SJC4VeE17V6gASoOxVkUDy9pXFMRFxCWCD9fLeweNFizo3UzOg==
+"@types/react@^17.0.19":
+  version "17.0.19"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.19.tgz#8f2a85e8180a43b57966b237d26a29481dacc991"
+  integrity sha512-sX1HisdB1/ZESixMTGnMxH9TDe8Sk709734fEQZzCV/4lSu9kJCPbo2PbTRoZM+53Pp0P10hYVyReUueGwUi4A==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -2136,17 +2126,7 @@ ajv@^6.10.0, ajv@^6.12.4, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ajv@^8.0.1:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.6.0.tgz#60cc45d9c46a477d80d92c48076d972c342e5720"
-  integrity sha512-cnUG4NSBiM4YFBxgZIj/In3/6KX+rQ2l2YPRVcvAMQGWEPKuXoPIhxzwqh31jA3IPbI4qEOp/5ILI4ynioXsGQ==
-  dependencies:
-    fast-deep-equal "^3.1.1"
-    json-schema-traverse "^1.0.0"
-    require-from-string "^2.0.2"
-    uri-js "^4.2.2"
-
-ajv@^8.6.0:
+ajv@^8.0.1, ajv@^8.6.0:
   version "8.6.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.6.2.tgz#2fb45e0e5fcbc0813326c1c3da535d1881bb0571"
   integrity sha512-9807RlWAgT564wT+DjeyU5OFMPjmzxVobvDFmNAhY+5zD6A2ly3jDp6sgnfyDtlIQ+7H97oc/DGCzzfu9rjw9w==
@@ -4899,10 +4879,10 @@ neo-async@^2.6.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-pwa@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.3.0.tgz#74660b946ed22bbf293cbc601663310d4ac65c31"
-  integrity sha512-xeTLHFm8xpcclL9UZKwCIYCn4DE64JXIzdq29iPxX1fr7hvyp+Yag8Sm/00U+bDCufqCyaQTb1zkpQrvvAB31g==
+next-pwa@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.3.1.tgz#5bcd854422a452fd1fd56500d1c483664d9733d9"
+  integrity sha512-Os6bf/lEYoztvsILYkAhDjiYfLNTprqEumxuv5DjhoFh4OpIzO7U0GKRI6MZluH4SfAoe0IdHz9knnZxybSnag==
   dependencies:
     babel-loader "^8.2.2"
     clean-webpack-plugin "^3.0.0"
