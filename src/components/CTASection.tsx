@@ -4,9 +4,14 @@ import { AiFillGithub } from "react-icons/ai";
 const CTASection = () => {
   return (
     <Box textAlign="center" marginTop={8}>
-      <Link href="https://github.com/sozonome/nextchakra-starter" isExternal>
-        <Button leftIcon={<AiFillGithub />}>Open in Github</Button>
-      </Link>
+      <Button
+        as="a"
+        href="https://github.com/sozonome/nextchakra-starter"
+        target="_blank"
+        leftIcon={<AiFillGithub />}
+      >
+        Open in Github
+      </Button>
       <Flex marginY={4} justifyContent="center" gridGap={2}>
         <Link
           aria-label="Deploy to Vercel"

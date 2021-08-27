@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint-fix": "eslint src --fix && yarn format",
     "format": "prettier --write src",
     "up-latest": "yarn upgrade-interactive --latest",
     "release": "standard-version",
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^13.1.0",
     "@types/react": "^17.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
     "commitlint": "^13.1.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.0",
