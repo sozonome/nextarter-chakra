@@ -12,7 +12,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), added with [**Chakra UI**](https://chakra-ui.com) and [**TypeScript**](https://www.typescriptlang.org) setup.
 Start developing right away!
 
-![NextChakra-Starter](/public/next-app-chakra-ts.png)
+## 🔋⚡ Battery Packed template
+
+- ✔️ toolings for linting, formatting, and conventions configured
+  `eslint`, `prettier`, `husky`, `lint-staged`, and `standard-version`
+- 📱 PWA-ready 
+  `next-pwa` configured, disabled by default, just enable it through `next.config.js`
+- 🔎 SEO optimization configured
+  with `next-seo` and `next-sitemap`. you'll need to reconfigure or tinker with it to get it right according to your needs, but it's there if you need it.
+- 🎨 basic responsive layout configured
+  don't need it? just remove it 😃
 
 ## Getting Started
 
