@@ -1,3 +1,8 @@
+/**
+ * @todo: remove this comment below when ready
+ * ref: https://github.com/vercel/next.js/issues/13712#issuecomment-910409023
+ * */
+// eslint-disable-next-line @next/next/no-document-import-in-page
 import Document, {
   Html,
   Head,
