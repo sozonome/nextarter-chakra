@@ -29,7 +29,8 @@ const CTASection = () => {
 
       <Box marginY={2}>
         <Code>
-          {`yarn create next-app --example https://github.com/sozonome/nextchakra-starter`}
+          yarn create next-app --example
+          https://github.com/sozonome/nextchakra-starter
         </Code>
 
         <Button

@@ -1,34 +1,7 @@
 {
-  "plugins": ["@typescript-eslint"],
-  "parser": "@typescript-eslint/parser",
   "extends": [
-    "eslint:recommended",
-    "next",
-    "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended"
-  ],
-  "rules": {
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "import/order": [
-      "warn",
-      {
-        "groups": [
-          ["builtin", "external"],
-          ["internal", "parent"],
-          ["sibling", "index"],
-          "type",
-          "object"
-        ],
-        "newlines-between": "always",
-        "alphabetize": {
-          "order": "asc",
-          "caseInsensitive": true
-        }
-      }
-    ],
-    "complexity": "warn",
-    "no-console": ["error"]
-  }
+    "eslint-config-sznm/react",
+    "plugin:react/jsx-runtime",
+    "plugin:@next/next/recommended"
+  ]
 }
