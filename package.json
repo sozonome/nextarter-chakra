@@ -32,7 +32,6 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^13.1.0",
     "@types/react": "^17.0.19",
-    "@typescript-eslint/eslint-plugin": "^4.30.0",
     "commitlint": "^13.1.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.2",
