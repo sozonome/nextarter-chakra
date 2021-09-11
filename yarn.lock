@@ -3533,23 +3533,22 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-config-sznm@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/eslint-config-sznm/-/eslint-config-sznm-0.1.6.tgz#ae9b4e39769eb55a7554412a082ba769d5a0fc9c"
-  integrity sha512-kgwwmKGsZsdcCSwyoz2sVEEbZC029Ykltz205JJGkClrHJuGfVSQGMBpi1s+5XiAYavV3UYM0w+fuB436jKPXg==
+eslint-config-sznm@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-sznm/-/eslint-config-sznm-0.1.7.tgz#8d26178bf7534b71c55aa45a1a95f94e49030e73"
+  integrity sha512-ibDvfqdCJhx8I/KXGzEFiQ+UVPuLy3+0Cd5y3w5g2Ce+XPYc8cnBzDftmNdUUn5+K4SPKcj28cKE22WQNafF9w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.30.0"
+    eslint-config-airbnb "^18.2.1"
     eslint-config-airbnb-base "^14.2.1"
+    eslint-config-airbnb-typescript "^14.0.0"
     eslint-config-prettier "^8.3.0"
     eslint-plugin-import "^2.24.2"
-    eslint-plugin-prettier "^4.0.0"
-    eslint-plugin-sonarjs "^0.10.0"
-  optionalDependencies:
-    eslint-config-airbnb "^18.2.1"
-    eslint-config-airbnb-typescript "^14.0.0"
     eslint-plugin-jsx-a11y "^6.4.1"
+    eslint-plugin-prettier "^4.0.0"
     eslint-plugin-react "^7.25.1"
     eslint-plugin-react-hooks "^4.2.0"
+    eslint-plugin-sonarjs "^0.10.0"
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"

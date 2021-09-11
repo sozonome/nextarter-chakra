@@ -37,7 +37,7 @@
     "commitlint": "^13.1.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.2",
-    "eslint-config-sznm": "^0.1.6",
+    "eslint-config-sznm": "^0.1.7",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "next-sitemap": "^1.6.164",

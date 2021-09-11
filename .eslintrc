@@ -1,6 +1,6 @@
 {
   "extends": [
-    "eslint-config-sznm/react",
+    "sznm/react",
     "plugin:react/jsx-runtime",
     "plugin:@next/next/recommended"
   ]
