@@ -35,7 +35,7 @@ Start developing right away!
 You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
 
 ```bash
-npx degit sozonome/nextchakra-starter
+npx degit sozonome/nextchakra-starter <YOUR_APP_NAME>
 ```
 
 Then, run the development server:
