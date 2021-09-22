@@ -32,12 +32,10 @@ Start developing right away!
 
 ## Getting Started
 
-You can either click `Use this template` button on this repository and clone the repo or create project with `create-next-app` like so:
+You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
 
 ```bash
-npx create-next-app <APP_NAME> --example https://github.com/sozonome/nextchakra-starter
-# or
-yarn create next-app <APP_NAME> --example https://github.com/sozonome/nextchakra-starter
+npx degit sozonome/nextchakra-starter
 ```
 
 Then, run the development server:

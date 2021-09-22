@@ -28,10 +28,7 @@ const CTASection = () => {
       </Flex>
 
       <Box marginY={2}>
-        <Code>
-          yarn create next-app --example
-          https://github.com/sozonome/nextchakra-starter
-        </Code>
+        <Code>npx degit sozonome/nextchakra-starter</Code>
 
         <Button
           marginTop={2}
