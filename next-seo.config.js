@@ -1,21 +1,21 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  title: "nextchakra-starter",
-  titleTemplate: "%s | nextchakra-starter",
-  defaultTitle: "nextchakra-starter",
+  title: "nextarter-chakra",
+  titleTemplate: "%s | nextarter-chakra",
+  defaultTitle: "nextarter-chakra",
   description: "Next.js + chakra-ui + TypeScript template",
-  canonical: "https://nextchakra-starter.sznm.dev",
+  canonical: "https://nextarter-chakra.sznm.dev",
   openGraph: {
-    url: "https://nextchakra-starter.sznm.dev",
-    title: "nextchakra-starter",
+    url: "https://nextarter-chakra.sznm.dev",
+    title: "nextarter-chakra",
     description: "Next.js + chakra-ui + TypeScript template",
     images: [
       {
-        url: "https://og-image.sznm.dev/**nextchakra-starter**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250",
-        alt: "nextchakra-starter.sznm.dev og-image",
+        url: "https://og-image.sznm.dev/**nextarter-chakra**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250",
+        alt: "nextarter-chakra.sznm.dev og-image",
       },
     ],
-    site_name: "nextchakra-starter",
+    site_name: "nextarter-chakra",
   },
   twitter: {
     handle: "@sozonome",

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Flex as="header" width="full" align="center">
       <Heading as="h1" size="md">
-        <Link href="/">nextchakra-starter</Link>
+        <Link href="/">nextarter-chakra</Link>
       </Heading>
 
       <Box marginLeft="auto">

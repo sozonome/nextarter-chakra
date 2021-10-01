@@ -1,13 +1,13 @@
-# nextchakra-starter
+# nextarter-chakra
 
-[![nextchakra-starter](https://socialify.git.ci/sozonome/nextchakra-starter/image?description=1&descriptionEditable=Template%20to%20quickly%20initialize%20nextjs%20app%20with%20Chakra%20UI%20%26%20Typescript%20setup&logo=https%3A%2F%2Fsznm.dev%2Fapp_icons%2Fnextchakra-starter.svg&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)](https://github.com/sozonome/nextchakra-starter)
+[![nextarter-chakra](https://socialify.git.ci/sozonome/nextarter-chakra/image?description=1&descriptionEditable=Template%20to%20quickly%20initialize%20nextjs%20app%20with%20Chakra%20UI%20%26%20Typescript%20setup&logo=https%3A%2F%2Fsznm.dev%2Fapp_icons%2Fnextarter-chakra.svg&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)](https://github.com/sozonome/nextarter-chakra)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextchakra-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextchakra-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-chakra) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-chakra)
 
-[![CodeFactor](https://www.codefactor.io/repository/github/sozonome/nextchakra-starter/badge)](https://www.codefactor.io/repository/github/sozonome/nextchakra-starter)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextchakra-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=sozonome_nextchakra-starter) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextchakra-starter&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=sozonome_nextchakra-starter) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextchakra-starter&metric=bugs)](https://sonarcloud.io/dashboard?id=sozonome_nextchakra-starter) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextchakra-starter&metric=code_smells)](https://sonarcloud.io/dashboard?id=sozonome_nextchakra-starter) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextchakra-starter&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=sozonome_nextchakra-starter)
+[![CodeFactor](https://www.codefactor.io/repository/github/sozonome/nextarter-chakra/badge)](https://www.codefactor.io/repository/github/sozonome/nextarter-chakra)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=alert_status)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=bugs)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=code_smells)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra)
 
-[![Depfu](https://badges.depfu.com/badges/9e426e58f99c3bd470987a3c6b014a96/overview.svg)](https://depfu.com/github/sozonome/nextchakra-starter?project_id=26148) [![Depfu](https://badges.depfu.com/badges/9e426e58f99c3bd470987a3c6b014a96/count.svg)](https://depfu.com/github/sozonome/nextchakra-starter?project_id=26148)
+[![Depfu](https://badges.depfu.com/badges/9e426e58f99c3bd470987a3c6b014a96/overview.svg)](https://depfu.com/github/sozonome/nextarter-chakra?project_id=26148) [![Depfu](https://badges.depfu.com/badges/9e426e58f99c3bd470987a3c6b014a96/count.svg)](https://depfu.com/github/sozonome/nextarter-chakra?project_id=26148)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
 
@@ -37,7 +37,7 @@ Start developing right away!
 You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
 
 ```bash
-npx degit sozonome/nextchakra-starter <YOUR_APP_NAME>
+npx degit sozonome/nextarter-chakra <YOUR_APP_NAME>
 ```
 
 Then, run the development server:
