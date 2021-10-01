@@ -17,8 +17,6 @@ import * as React from "react";
 import createEmotionCache from "styles/createEmotionCache";
 
 const APP_NAME = "nextchakra-starter";
-const APP_DESCRIPTION =
-  "Next.js app template with Chakra-UI, TypeScript, and PWA configured";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -66,7 +64,6 @@ class MyDocument extends Document {
             content="default"
           />
           <meta name="apple-mobile-web-app-title" content={APP_NAME} />
-          <meta name="description" content={APP_DESCRIPTION} />
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="theme-color" content="#FFFFFF" />
