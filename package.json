@@ -17,7 +17,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.7",
+    "@chakra-ui/react": "^1.6.8",
     "@emotion/cache": "^11.4.0",
     "@emotion/react": "^11.4.1",
     "@emotion/server": "^11.4.0",
@@ -26,7 +26,7 @@
     "framer-motion": "^4.1.17",
     "next": "^11.1.2",
     "next-pwa": "^5.3.1",
-    "next-seo": "^4.26.0",
+    "next-seo": "^4.28.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0"
