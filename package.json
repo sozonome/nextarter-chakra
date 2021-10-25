@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.10",
-    "@emotion/cache": "^11.4.0",
-    "@emotion/react": "^11.4.1",
+    "@emotion/cache": "^11.5.0",
+    "@emotion/react": "^11.5.0",
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.3.0",
     "@fontsource/lexend": "^4.5.1",
@@ -33,16 +33,16 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^13.2.0",
-    "@types/react": "^17.0.30",
+    "@types/react": "^17.0.32",
     "commitlint": "^13.2.1",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.2",
     "eslint-config-sznm": "^0.1.10",
     "husky": "^7.0.2",
     "lint-staged": "^11.2.3",
-    "next-sitemap": "^1.6.184",
+    "next-sitemap": "^1.6.192",
     "prettier": "^2.4.1",
-    "standard-version": "^9.3.1",
+    "standard-version": "^9.3.2",
     "typescript": "^4.4.4"
   }
 }
