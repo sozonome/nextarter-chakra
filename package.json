@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "eslint src --fix && yarn format",
+    "type-check": "tsc --noEmit",
     "format": "prettier --write src",
     "up-latest": "yarn upgrade-interactive --latest",
     "release": "standard-version",

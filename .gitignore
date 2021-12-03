@@ -40,3 +40,6 @@ yarn-error.log*
 # sitemap
 robots.txt
 sitemap.xml
+
+# TS
+*.tsbuildinfo
