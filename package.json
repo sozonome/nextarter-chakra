@@ -20,13 +20,13 @@
   "dependencies": {
     "@chakra-ui/react": "^1.7.2",
     "@emotion/cache": "^11.6.0",
-    "@emotion/react": "^11.6.0",
+    "@emotion/react": "^11.7.0",
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.6.0",
     "@fontsource/lexend": "^4.5.1",
     "framer-motion": "^4.1.17",
     "next": "^12.0.4",
-    "next-pwa": "^5.4.0",
+    "next-pwa": "^5.4.1",
     "next-seo": "^4.28.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -34,16 +34,16 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^14.1.0",
-    "@types/react": "^17.0.36",
+    "@types/react": "^17.0.37",
     "commitlint": "^14.1.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "^12.0.4",
     "eslint-config-sznm": "^0.1.11",
     "husky": "^7.0.4",
-    "lint-staged": "^12.1.1",
+    "lint-staged": "^12.1.2",
     "next-sitemap": "^1.6.203",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.0",
     "standard-version": "^9.3.2",
-    "typescript": "^4.4.4"
+    "typescript": "^4.5.2"
   }
 }
