@@ -23,7 +23,7 @@ const SomeText = () => {
         padding={4}
         borderRadius={4}
       >
-        <Box d="flex" alignItems="center" fontSize={textSize}>
+        <Box fontSize={textSize}>
           This is a Next.js app with Chakra-UI and TypeScript setup.
         </Box>
       </Box>
