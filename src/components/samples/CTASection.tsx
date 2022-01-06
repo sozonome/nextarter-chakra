@@ -5,8 +5,12 @@ const repoLink = "https://github.com/sozonome/nextarter-chakra";
 
 const CTASection = () => {
   return (
-    <Box textAlign="center" marginTop={8}>
-      <Flex marginY={4} justifyContent="center" gridGap={2}>
+    <Box textAlign={{ base: "center", md: "left" }} marginTop={8}>
+      <Flex
+        marginY={4}
+        justifyContent={{ base: "center", md: "left" }}
+        gridGap={2}
+      >
         <Link
           aria-label="Deploy to Vercel"
           isExternal
@@ -42,7 +46,11 @@ const CTASection = () => {
         </Button>
       </Box>
 
-      <Flex justifyContent="center" alignItems="center" gridGap={2}>
+      <Flex
+        justifyContent={{ base: "center", md: "left" }}
+        alignItems="center"
+        gridGap={2}
+      >
         <Button
           as="a"
           href={repoLink}

@@ -1,5 +1,6 @@
 import {
   Box,
+  Grid,
   Heading,
   useBreakpointValue,
   useColorMode,
@@ -9,12 +10,12 @@ const SomeText = () => {
   const { colorMode } = useColorMode();
   const textSize = useBreakpointValue({
     base: "xs",
-    sm: "md",
+    sm: "sm",
   });
 
   return (
-    <>
-      <Heading as="h2" fontSize="3xl">
+    <Grid gap={2}>
+      <Heading as="h2" fontSize={{ base: "lg", sm: "3xl" }}>
         Hello
       </Heading>
 
@@ -27,7 +28,7 @@ const SomeText = () => {
           This is a Next.js app with Chakra-UI and TypeScript setup.
         </Box>
       </Box>
-    </>
+    </Grid>
   );
 };
 

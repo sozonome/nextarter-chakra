@@ -1,4 +1,4 @@
-import { Flex, Link, Text, useColorMode } from "@chakra-ui/react";
+import { Box, Flex, Link, Text, useColorMode } from "@chakra-ui/react";
 import Image from "next/image";
 
 import MotionBox from "components/motion/Box";
@@ -9,7 +9,7 @@ const SomeImage = () => {
   const { colorMode } = useColorMode();
 
   return (
-    <>
+    <Box>
       <MotionBox
         animate={{ y: 20, scale: 0.97 }}
         transition={{ repeat: Infinity, duration: 2, repeatType: "reverse" }}
@@ -35,7 +35,7 @@ const SomeImage = () => {
         <HelperImage src="/chakra-ui-logomark-colored.svg" label="Chakra UI" />
         <HelperImage src="/ts-logo-512.svg" label="TypeScript" />
       </Flex>
-    </>
+    </Box>
   );
 };
 

@@ -6,6 +6,7 @@ import {
   Text,
   Link as ChakraLink,
   useColorMode,
+  Flex,
 } from "@chakra-ui/react";
 import Link from "next/link";
 
@@ -15,7 +16,7 @@ const Page404 = () => {
   const { colorMode } = useColorMode();
 
   return (
-    <>
+    <Flex minHeight="70vh" direction="column" justifyContent="center">
       <MotionBox
         animate={{ y: 20 }}
         transition={{ repeat: Infinity, duration: 2, repeatType: "reverse" }}
@@ -47,7 +48,7 @@ const Page404 = () => {
           </Link>
         </Box>
       </Box>
-    </>
+    </Flex>
   );
 };
 

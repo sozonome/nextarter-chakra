@@ -6,10 +6,20 @@ import SomeText from "components/samples/SomeText";
 
 const Home = () => {
   return (
-    <Box mb={8} w="full">
-      <SomeText />
+    <Box
+      display={{ md: "flex" }}
+      alignItems="center"
+      minHeight="70vh"
+      gap={8}
+      mb={8}
+      w="full"
+    >
       <SomeImage />
-      <CTASection />
+
+      <Box>
+        <SomeText />
+        <CTASection />
+      </Box>
     </Box>
   );
 };
