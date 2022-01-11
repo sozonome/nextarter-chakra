@@ -14,6 +14,7 @@ const CTASection = () => {
         <Link
           aria-label="Deploy to Vercel"
           isExternal
+          rel="noopener noreferrer"
           href="https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-chakra"
         >
           <Image src="https://vercel.com/button" alt="Vercel deploy button" />
@@ -22,6 +23,7 @@ const CTASection = () => {
         <Link
           aria-label="Deploy to Netlify"
           isExternal
+          rel="noopener noreferrer"
           href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-chakra"
         >
           <Image
@@ -60,7 +62,7 @@ const CTASection = () => {
         >
           Open in Github
         </Button>
-        <Link href={repoLink} isExternal>
+        <Link href={repoLink} isExternal rel="noopener noreferrer">
           <Image
             align="center"
             src="https://img.shields.io/github/stars/sozonome/nextarter-chakra?style=social"

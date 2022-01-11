@@ -29,7 +29,11 @@ const Page404 = () => {
         />
       </MotionBox>
       <Text textAlign="center" fontSize="xs">
-        <ChakraLink href="https://stories.freepik.com/web" isExternal>
+        <ChakraLink
+          href="https://stories.freepik.com/web"
+          isExternal
+          rel="noopener noreferrer"
+        >
           Illustration by Freepik Stories
         </ChakraLink>
       </Text>

@@ -25,7 +25,11 @@ const SomeImage = () => {
         />
       </MotionBox>
       <Text textAlign="center" fontSize="xs">
-        <Link href="https://stories.freepik.com/web" isExternal>
+        <Link
+          href="https://stories.freepik.com/web"
+          isExternal
+          rel="noopener noreferrer"
+        >
           Illustration by Freepik Stories
         </Link>
       </Text>
