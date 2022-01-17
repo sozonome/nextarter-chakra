@@ -19,7 +19,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.7.4",
+    "@chakra-ui/react": "^1.7.5",
     "@emotion/cache": "^11.7.1",
     "@emotion/react": "^11.7.1",
     "@emotion/server": "^11.4.0",
@@ -41,7 +41,7 @@
     "eslint-config-next": "^12.0.7",
     "eslint-config-sznm": "^0.2.0",
     "husky": "^7.0.4",
-    "lint-staged": "^12.1.5",
+    "lint-staged": "^12.1.7",
     "next-sitemap": "^1.6.203",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2",
