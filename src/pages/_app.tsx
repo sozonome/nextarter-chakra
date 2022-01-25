@@ -8,10 +8,10 @@ import Head from "next/head";
 import "@fontsource/lexend/latin.css";
 
 import defaultSEOConfig from "../../next-seo.config";
-import Layout from "components/layout";
-import createEmotionCache from "styles/createEmotionCache";
-import customTheme from "styles/customTheme";
-import "styles/globals.css";
+import Layout from "lib/components/layout";
+import createEmotionCache from "lib/styles/createEmotionCache";
+import customTheme from "lib/styles/customTheme";
+import "lib/styles/globals.css";
 
 const clientSideEmotionCache = createEmotionCache();
 
