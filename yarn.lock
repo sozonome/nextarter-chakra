@@ -1770,10 +1770,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/lexend@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.5.2.tgz#eb2949e46831b9a89ece254145d053ad52a3a637"
-  integrity sha512-8wcqpW5ohWGptW8T9HYT20MDrfBmaAkmI/eE/ytwaqRT7WmxZjido72WjSZmKf5F872HHoaIOQWmZbYMdgMdcg==
+"@fontsource/lexend@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.5.3.tgz#50ed39bb858cbd7142eddcff771892d03fddca00"
+  integrity sha512-BABZfVvX4TQU/yairWyKdZqdNqnDAQcJTlWgetd6x4Hfk/m3teewkv5OupBJtUv3665DBpdjHSLluu7ss052ig==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.2"
@@ -3349,10 +3349,10 @@ eslint-visitor-keys@^3.2.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.2.0.tgz#6fbb166a6798ee5991358bc2daa1ba76cc1254a1"
   integrity sha512-IOzT0X126zn7ALX0dwFiUQEdsfzrm4+ISsQS8nukaJXwEyYKRSnEIIDULYg1mCtGp7UUXgfGl7BIolXREQK+XQ==
 
-eslint@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.7.0.tgz#22e036842ee5b7cf87b03fe237731675b4d3633c"
-  integrity sha512-ifHYzkBGrzS2iDU7KjhCAVMGCvF6M3Xfs8X8b37cgrUlDt6bWRTpRh6T/gtSXv1HJ/BUGgmjvNvOEGu85Iif7w==
+eslint@^8.8.0:
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.8.0.tgz#9762b49abad0cb4952539ffdb0a046392e571a2d"
+  integrity sha512-H3KXAzQGBH1plhYS3okDix2ZthuYJlQQEGE5k0IKuEqUSiyu4AmxxlJ2MtTYeJ3xB4jDhcYCwGOg2TXYdnDXlQ==
   dependencies:
     "@eslint/eslintrc" "^1.0.5"
     "@humanwhocodes/config-array" "^0.9.2"
@@ -4612,15 +4612,15 @@ next-pwa@^5.4.4:
     workbox-webpack-plugin "^6.4.2"
     workbox-window "^6.4.2"
 
-next-seo@^4.29.0:
-  version "4.29.0"
-  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.29.0.tgz#d281e95ba47914117cc99e9e468599f0547d9b9b"
-  integrity sha512-xmwzcz4uHaYJ8glbuhs6FSBQ7z3irmdPYdJJ5saWm72Uy3o+mPKGaPCXQetTCE6/xxVnpoDV4yFtFlEjUcljSg==
+next-seo@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-5.0.0.tgz#8a5c82279edcbd74c4ce58efa5588528e47c0d72"
+  integrity sha512-uCa8hoE5VQz4D2NqZAPhqR64hY5LSmaq70wmfGK09U57TMY7XzsDI+MjfZo0MgHJM87bj3Fd/oMQbDcZ/YWhJQ==
 
-next-sitemap@^2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-2.0.7.tgz#58597d7bf9de3cfcdda79cc56ff75b5e0a5eafe3"
-  integrity sha512-QuB0j34a61FjSqOLab+57nBb9rfPEUewgpggs/BUR4CkXgglqn2eLorT0gh2lv9NA1j2rMmVH5xZTJpRlURyow==
+next-sitemap@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-2.0.11.tgz#a56b8bbd908d5930be1c79006f1ba12c7984cbec"
+  integrity sha512-Y3ydrQerVTOythnyuQxAzWjQLZ4Gi1p9SE4zbQVu91yM+xUO0doHuA+Q2UirHMiV97hUWPZcGTxjFdunOt7QcQ==
   dependencies:
     "@corex/deepmerge" "^2.6.148"
     minimist "^1.2.5"
