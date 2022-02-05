@@ -14,9 +14,9 @@ module.exports = withPWA({
     dest: "public",
     register: true,
   },
-  // experimental: {
-  //   optimizeCss: true,
-  // },
+  experimental: {
+    optimizeCss: true,
+  },
   reactStrictMode: true,
   eslint: {
     dirs: ["src"],
