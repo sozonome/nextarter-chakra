@@ -3,7 +3,6 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import "@fontsource/lexend/latin.css";
 
 import defaultSEOConfig from "../../next-seo.config";
 import Layout from "lib/components/layout";

@@ -16,6 +16,11 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=optional"
+            rel="stylesheet"
+          />
+
           <meta name="application-name" content={APP_NAME} />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta
