@@ -1,7 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { ChakraProvider } from "@chakra-ui/react";
-// import type { EmotionCache } from "@emotion/cache";
-// import { CacheProvider } from "@emotion/react";
 import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -9,23 +7,11 @@ import "@fontsource/lexend/latin.css";
 
 import defaultSEOConfig from "../../next-seo.config";
 import Layout from "lib/components/layout";
-// import createEmotionCache from "lib/styles/createEmotionCache";
 import customTheme from "lib/styles/customTheme";
 import "lib/styles/globals.css";
 
-// const clientSideEmotionCache = createEmotionCache();
-
-// interface MyAppProps extends AppProps {
-//   emotionCache?: EmotionCache;
-// }
-
-const MyApp = ({
-  Component,
-  pageProps,
-}: // emotionCache = clientSideEmotionCache,
-AppProps) => {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    // <CacheProvider value={emotionCache}>
     <ChakraProvider theme={customTheme}>
       <Head>
         <meta
@@ -38,7 +24,6 @@ AppProps) => {
         <Component {...pageProps} />
       </Layout>
     </ChakraProvider>
-    // </CacheProvider>
   );
 };
 
