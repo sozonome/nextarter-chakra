@@ -39,7 +39,7 @@
     "eslint-config-sznm": "^0.2.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.2",
-    "next-sitemap": "^2.1.14",
+    "next-sitemap": "^2.4.3",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2",
     "typescript": "^4.5.5"
