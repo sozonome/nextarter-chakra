@@ -1,17 +1,16 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import { ChakraProvider } from "@chakra-ui/react";
 import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
 import defaultSEOConfig from "../../next-seo.config";
+import { Chakra } from "lib/components/Chakra";
 import Layout from "lib/layout";
-import customTheme from "lib/styles/customTheme";
 import "lib/styles/globals.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    <ChakraProvider theme={customTheme}>
+    <Chakra>
       <Head>
         <meta
           name="viewport"
@@ -22,7 +21,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </ChakraProvider>
+    </Chakra>
   );
 };
 
