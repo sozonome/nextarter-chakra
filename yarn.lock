@@ -1464,25 +1464,25 @@
   dependencies:
     "@chakra-ui/utils" "2.0.0"
 
-"@commitlint/cli@^16.3.0":
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.3.0.tgz#5689f5c2abbb7880d5ff13329251e5648a784b16"
-  integrity sha512-P+kvONlfsuTMnxSwWE1H+ZcPMY3STFaHb2kAacsqoIkNx66O0T7sTpBxpxkMrFPyhkJiLJnJWMhk4bbvYD3BMA==
+"@commitlint/cli@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.0.0.tgz#6c86c6b0eba4ba1204a19833c3c962b623f35518"
+  integrity sha512-Np6slCdVVG1XwMvwbZrXIzS1INPAD5QmN4L6al04AmCd4nAPU63gxgxC5Mz0Fmx7va23Uvb0S7yEFV1JPhvPUQ==
   dependencies:
-    "@commitlint/format" "^16.2.1"
-    "@commitlint/lint" "^16.2.4"
-    "@commitlint/load" "^16.3.0"
-    "@commitlint/read" "^16.2.1"
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/format" "^17.0.0"
+    "@commitlint/lint" "^17.0.0"
+    "@commitlint/load" "^17.0.0"
+    "@commitlint/read" "^17.0.0"
+    "@commitlint/types" "^17.0.0"
     lodash "^4.17.19"
     resolve-from "5.0.0"
     resolve-global "1.0.0"
     yargs "^17.0.0"
 
-"@commitlint/config-conventional@^16.2.4":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-16.2.4.tgz#56647108c89ed06fc5271242787550331988c0fb"
-  integrity sha512-av2UQJa3CuE5P0dzxj/o/B9XVALqYzEViHrMXtDrW9iuflrqCStWBAioijppj9URyz6ONpohJKAtSdgAOE0gkA==
+"@commitlint/config-conventional@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-17.0.0.tgz#7dc2ef3ac1a11ff62bcd333343cc8921edd1646a"
+  integrity sha512-jttJXBIq3AuQCvUVwxSctCwKfHxxbALE0IB9OIHYCu/eQdOzPxN72pugeZsWDo1VK/T9iFx+MZoPb6Rb1/ylsw==
   dependencies:
     conventional-changelog-conventionalcommits "^4.3.1"
 
@@ -1494,24 +1494,32 @@
     "@commitlint/types" "^16.2.1"
     ajv "^6.12.6"
 
-"@commitlint/cz-commitlint@^16.3.0":
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/cz-commitlint/-/cz-commitlint-16.3.0.tgz#55964b3e1d71c38f203c8724dca0154b3620f098"
-  integrity sha512-Q+QLQmSIHEgzI18F3/7mqq3vwL0IN9k+Tjp9Um4adFnRXMtUTnEa0er0CXAXxWvoA/x/6nt3t7faAv2HugDIGg==
+"@commitlint/config-validator@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-validator/-/config-validator-17.0.0.tgz#49ab09f3ca0ac3449e79ea389cb4942423162ac0"
+  integrity sha512-78IQjoZWR4kDHp/U5y17euEWzswJpPkA9TDL5F6oZZZaLIEreWzrDZD5PWtM8MsSRl/K2LDU/UrzYju2bKLMpA==
   dependencies:
-    "@commitlint/ensure" "^16.2.1"
-    "@commitlint/load" "^16.3.0"
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/types" "^17.0.0"
+    ajv "^6.12.6"
+
+"@commitlint/cz-commitlint@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/cz-commitlint/-/cz-commitlint-17.0.0.tgz#f594848a84bc0764c22c79a54d6c7e219e91ed40"
+  integrity sha512-Cq5rb3pUJRIp8M17/w8iUmDup/7KOZVt3OSDa3LKym9y9Y7/7MhiOHfWvTYcMJIOYT7TRbxVycbVvx5hPPjZ/A==
+  dependencies:
+    "@commitlint/ensure" "^17.0.0"
+    "@commitlint/load" "^17.0.0"
+    "@commitlint/types" "^17.0.0"
     chalk "^4.1.0"
     lodash "^4.17.21"
     word-wrap "^1.2.3"
 
-"@commitlint/ensure@^16.2.1":
-  version "16.2.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-16.2.1.tgz#0fc538173f95c1eb2694eeedb79cab478347f16f"
-  integrity sha512-/h+lBTgf1r5fhbDNHOViLuej38i3rZqTQnBTk+xEg+ehOwQDXUuissQ5GsYXXqI5uGy+261ew++sT4EA3uBJ+A==
+"@commitlint/ensure@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-17.0.0.tgz#781ff5f8870cb98ce4496d5c71649a4cd122a0e0"
+  integrity sha512-M2hkJnNXvEni59S0QPOnqCKIK52G1XyXBGw51mvh7OXDudCmZ9tZiIPpU882p475Mhx48Ien1MbWjCP1zlyC0A==
   dependencies:
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/types" "^17.0.0"
     lodash "^4.17.19"
 
 "@commitlint/execute-rule@^16.2.1":
@@ -1519,33 +1527,38 @@
   resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-16.2.1.tgz#60be73be4b9af97a41546e7ce59fdd33787c65f8"
   integrity sha512-oSls82fmUTLM6cl5V3epdVo4gHhbmBFvCvQGHBRdQ50H/690Uq1Dyd7hXMuKITCIdcnr9umyDkr8r5C6HZDF3g==
 
-"@commitlint/format@^16.2.1":
-  version "16.2.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/format/-/format-16.2.1.tgz#6e673f710c799be78e68b2682323e04f75080d07"
-  integrity sha512-Yyio9bdHWmNDRlEJrxHKglamIk3d6hC0NkEUW6Ti6ipEh2g0BAhy8Od6t4vLhdZRa1I2n+gY13foy+tUgk0i1Q==
-  dependencies:
-    "@commitlint/types" "^16.2.1"
-    chalk "^4.0.0"
+"@commitlint/execute-rule@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-17.0.0.tgz#186e9261fd36733922ae617497888c4bdb6e5c92"
+  integrity sha512-nVjL/w/zuqjCqSJm8UfpNaw66V9WzuJtQvEnCrK4jDw6qKTmZB+1JQ8m6BQVZbNBcwfYdDNKnhIhqI0Rk7lgpQ==
 
-"@commitlint/is-ignored@^16.2.4":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/is-ignored/-/is-ignored-16.2.4.tgz#369e40a240ad5451bf2b57a80829253129d7f19b"
-  integrity sha512-Lxdq9aOAYCOOOjKi58ulbwK/oBiiKz+7Sq0+/SpFIEFwhHkIVugvDvWjh2VRBXmRC/x5lNcjDcYEwS/uYUvlYQ==
+"@commitlint/format@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/format/-/format-17.0.0.tgz#2c991ac0df3955fe5d7d4d733967bd17e6cfd9e0"
+  integrity sha512-MZzJv7rBp/r6ZQJDEodoZvdRM0vXu1PfQvMTNWFb8jFraxnISMTnPBWMMjr2G/puoMashwaNM//fl7j8gGV5lA==
   dependencies:
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/types" "^17.0.0"
+    chalk "^4.1.0"
+
+"@commitlint/is-ignored@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/is-ignored/-/is-ignored-17.0.0.tgz#64f53517b390689e58aa3c29fbf1e05b7d4fbd65"
+  integrity sha512-UmacD0XM/wWykgdXn5CEWVS4XGuqzU+ZGvM2hwv85+SXGnIOaG88XHrt81u37ZeVt1riWW+YdOxcJW6+nd5v5w==
+  dependencies:
+    "@commitlint/types" "^17.0.0"
     semver "7.3.7"
 
-"@commitlint/lint@^16.2.4":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-16.2.4.tgz#575f5a9d227dddfca8386253d9aff27be5b94788"
-  integrity sha512-AUDuwOxb2eGqsXbTMON3imUGkc1jRdtXrbbohiLSCSk3jFVXgJLTMaEcr39pR00N8nE9uZ+V2sYaiILByZVmxQ==
+"@commitlint/lint@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-17.0.0.tgz#38ef61e0e977d738f738233fbcdf33a5fc04cf96"
+  integrity sha512-5FL7VLvGJQby24q0pd4UdM8FNFcL+ER1T/UBf8A9KRL5+QXV1Rkl6Zhcl7+SGpGlVo6Yo0pm6aLW716LVKWLGg==
   dependencies:
-    "@commitlint/is-ignored" "^16.2.4"
-    "@commitlint/parse" "^16.2.1"
-    "@commitlint/rules" "^16.2.4"
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/is-ignored" "^17.0.0"
+    "@commitlint/parse" "^17.0.0"
+    "@commitlint/rules" "^17.0.0"
+    "@commitlint/types" "^17.0.0"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^16.3.0":
+"@commitlint/load@>6.1.1":
   version "16.3.0"
   resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-16.3.0.tgz#e674ccc9edefd64a2d8b82d175de81ec3bb70eca"
   integrity sha512-3tykjV/iwbkv2FU9DG+NZ/JqmP0Nm3b7aDwgCNQhhKV5P74JAuByULkafnhn+zsFGypG1qMtI5u+BZoa9APm0A==
@@ -1562,27 +1575,44 @@
     resolve-from "^5.0.0"
     typescript "^4.4.3"
 
-"@commitlint/message@^16.2.1":
-  version "16.2.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-16.2.1.tgz#bc6a0fa446a746ac2ca78cf372e4cec48daf620d"
-  integrity sha512-2eWX/47rftViYg7a3axYDdrgwKv32mxbycBJT6OQY/MJM7SUfYNYYvbMFOQFaA4xIVZt7t2Alyqslbl6blVwWw==
-
-"@commitlint/parse@^16.2.1":
-  version "16.2.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/parse/-/parse-16.2.1.tgz#50b359cb711ec566d2ee236a8e4c6baca07b77c0"
-  integrity sha512-2NP2dDQNL378VZYioLrgGVZhWdnJO4nAxQl5LXwYb08nEcN+cgxHN1dJV8OLJ5uxlGJtDeR8UZZ1mnQ1gSAD/g==
+"@commitlint/load@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.0.0.tgz#0bbefe6d8b99276714c5ea8ef32de2bd2f082698"
+  integrity sha512-XaiHF4yWQOPAI0O6wXvk+NYLtJn/Xb7jgZEeKd4C1ZWd7vR7u8z5h0PkWxSr0uLZGQsElGxv3fiZ32C5+q6M8w==
   dependencies:
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/config-validator" "^17.0.0"
+    "@commitlint/execute-rule" "^17.0.0"
+    "@commitlint/resolve-extends" "^17.0.0"
+    "@commitlint/types" "^17.0.0"
+    "@types/node" ">=12"
+    chalk "^4.1.0"
+    cosmiconfig "^7.0.0"
+    cosmiconfig-typescript-loader "^2.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
+    typescript "^4.6.4"
+
+"@commitlint/message@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-17.0.0.tgz#ae0f8ec6a3e5c8d369792a2c391952c7596cca73"
+  integrity sha512-LpcwYtN+lBlfZijHUdVr8aNFTVpHjuHI52BnfoV01TF7iSLnia0jttzpLkrLmI8HNQz6Vhr9UrxDWtKZiMGsBw==
+
+"@commitlint/parse@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/parse/-/parse-17.0.0.tgz#6d508a1e2aec76f348a447994f26e9b749c02091"
+  integrity sha512-cKcpfTIQYDG1ywTIr5AG0RAiLBr1gudqEsmAGCTtj8ffDChbBRxm6xXs2nv7GvmJN7msOt7vOKleLvcMmRa1+A==
+  dependencies:
+    "@commitlint/types" "^17.0.0"
     conventional-changelog-angular "^5.0.11"
     conventional-commits-parser "^3.2.2"
 
-"@commitlint/read@^16.2.1":
-  version "16.2.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/read/-/read-16.2.1.tgz#e0539205d77cdb6879b560f95e5fb251e0c6f562"
-  integrity sha512-tViXGuaxLTrw2r7PiYMQOFA2fueZxnnt0lkOWqKyxT+n2XdEMGYcI9ID5ndJKXnfPGPppD0w/IItKsIXlZ+alw==
+"@commitlint/read@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/read/-/read-17.0.0.tgz#8ab01cf2f27350d8f81f21690962679a7cae5abf"
+  integrity sha512-zkuOdZayKX3J6F6mPnVMzohK3OBrsEdOByIqp4zQjA9VLw1hMsDEFQ18rKgUc2adkZar+4S01QrFreDCfZgbxA==
   dependencies:
-    "@commitlint/top-level" "^16.2.1"
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/top-level" "^17.0.0"
+    "@commitlint/types" "^17.0.0"
     fs-extra "^10.0.0"
     git-raw-commits "^2.0.0"
 
@@ -1598,26 +1628,38 @@
     resolve-from "^5.0.0"
     resolve-global "^1.0.0"
 
-"@commitlint/rules@^16.2.4":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/rules/-/rules-16.2.4.tgz#c2fbbf20d9d0e8fcf25690c88a27750d4a3e867b"
-  integrity sha512-rK5rNBIN2ZQNQK+I6trRPK3dWa0MtaTN4xnwOma1qxa4d5wQMQJtScwTZjTJeallFxhOgbNOgr48AMHkdounVg==
+"@commitlint/resolve-extends@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-17.0.0.tgz#3a40ee08184b984acf475ebc962641f435e3a639"
+  integrity sha512-wi60WiJmwaQ7lzMXK8Vbc18Hq9tE2j/6iv2AFfPUGV7fvfY6Sf1iNKuUHirSqR0fquUyufIXe4y/K9A6LVIIvw==
   dependencies:
-    "@commitlint/ensure" "^16.2.1"
-    "@commitlint/message" "^16.2.1"
-    "@commitlint/to-lines" "^16.2.1"
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/config-validator" "^17.0.0"
+    "@commitlint/types" "^17.0.0"
+    import-fresh "^3.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
+    resolve-global "^1.0.0"
+
+"@commitlint/rules@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/rules/-/rules-17.0.0.tgz#4eecc5d28cabbc5f3f73838fb02592b551f9bf62"
+  integrity sha512-45nIy3dERKXWpnwX9HeBzK5SepHwlDxdGBfmedXhL30fmFCkJOdxHyOJsh0+B0RaVsLGT01NELpfzJUmtpDwdQ==
+  dependencies:
+    "@commitlint/ensure" "^17.0.0"
+    "@commitlint/message" "^17.0.0"
+    "@commitlint/to-lines" "^17.0.0"
+    "@commitlint/types" "^17.0.0"
     execa "^5.0.0"
 
-"@commitlint/to-lines@^16.2.1":
-  version "16.2.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/to-lines/-/to-lines-16.2.1.tgz#42d000f34dc0406f514991e86237fdab5e8affd0"
-  integrity sha512-9/VjpYj5j1QeY3eiog1zQWY6axsdWAc0AonUUfyZ7B0MVcRI0R56YsHAfzF6uK/g/WwPZaoe4Lb1QCyDVnpVaQ==
+"@commitlint/to-lines@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/to-lines/-/to-lines-17.0.0.tgz#5766895836b8085b099a098482f88a03f070b411"
+  integrity sha512-nEi4YEz04Rf2upFbpnEorG8iymyH7o9jYIVFBG1QdzebbIFET3ir+8kQvCZuBE5pKCtViE4XBUsRZz139uFrRQ==
 
-"@commitlint/top-level@^16.2.1":
-  version "16.2.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/top-level/-/top-level-16.2.1.tgz#bdaa53ab3d8970e0288879f1a342a8c2dfe01583"
-  integrity sha512-lS6GSieHW9y6ePL73ied71Z9bOKyK+Ib9hTkRsB8oZFAyQZcyRwq2w6nIa6Fngir1QW51oKzzaXfJL94qwImyw==
+"@commitlint/top-level@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/top-level/-/top-level-17.0.0.tgz#ebd0df4c703c026c2fbdc20fa746836334f4ed15"
+  integrity sha512-dZrEP1PBJvodNWYPOYiLWf6XZergdksKQaT6i1KSROLdjf5Ai0brLOv5/P+CPxBeoj3vBxK4Ax8H1Pg9t7sHIQ==
   dependencies:
     find-up "^5.0.0"
 
@@ -1627,6 +1669,13 @@
   integrity sha512-7/z7pA7BM0i8XvMSBynO7xsB3mVQPUZbVn6zMIlp/a091XJ3qAXRXc+HwLYhiIdzzS5fuxxNIHZMGHVD4HJxdA==
   dependencies:
     chalk "^4.0.0"
+
+"@commitlint/types@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-17.0.0.tgz#3b4604c1a0f06c340ce976e6c6903d4f56e3e690"
+  integrity sha512-hBAw6U+SkAT5h47zDMeOu3HSiD0SODw4Aq7rRNh1ceUmL7GyLKYhPbUvlRWqZ65XjBLPHZhFyQlRaPNz8qvUyQ==
+  dependencies:
+    chalk "^4.1.0"
 
 "@corex/deepmerge@^2.6.148":
   version "2.6.148"
@@ -2089,7 +2138,7 @@
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
   integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
 
-"@typescript-eslint/eslint-plugin@^5.9.0":
+"@typescript-eslint/eslint-plugin@^5.23.0":
   version "5.23.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.23.0.tgz#bc4cbcf91fbbcc2e47e534774781b82ae25cc3d8"
   integrity sha512-hEcSmG4XodSLiAp1uxv/OQSGsDY6QN3TcRU32gANp+19wGE1QQZLRS8/GV58VRUoXhnkuJ3ZxNQ3T6Z6zM59DA==
@@ -2104,7 +2153,7 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.21.0", "@typescript-eslint/parser@^5.9.0":
+"@typescript-eslint/parser@^5.21.0", "@typescript-eslint/parser@^5.23.0":
   version "5.23.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.23.0.tgz#443778e1afc9a8ff180f91b5e260ac3bec5e2de1"
   integrity sha512-V06cYUkqcGqpFjb8ttVgzNF53tgbB/KoQT/iB++DOIExKmzI9vBJKjZKt/6FuV9c+zrDsvJKbJ2DOCYwX91cbw==
@@ -2671,13 +2720,13 @@ commitizen@^4.0.3, commitizen@^4.2.4:
     strip-bom "4.0.0"
     strip-json-comments "3.0.1"
 
-commitlint@^16.3.0:
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/commitlint/-/commitlint-16.3.0.tgz#646c7f9385647e2f7b3bca0738a0a2a7c1275cd8"
-  integrity sha512-W6T/632YL4pXiKtk81lHdQ6CQzWyt2rwaYjeqsUPm0lyIWNhx9NiNI55GbZuPOnpaike7IZn56J+hnItY4pnBQ==
+commitlint@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/commitlint/-/commitlint-17.0.0.tgz#b665bf3f8dd173d062f5792ba36e5a7134250684"
+  integrity sha512-9D1oY5UValrpkdpVbaiZ9EIXYJDnFvO5LXK5FztbIbnf3QxnC34A1MmMAzm9Z6Lmf7V4+khV0VE43302pHmwug==
   dependencies:
-    "@commitlint/cli" "^16.3.0"
-    "@commitlint/types" "^16.2.1"
+    "@commitlint/cli" "^17.0.0"
+    "@commitlint/types" "^17.0.0"
 
 common-tags@^1.8.0:
   version "1.8.2"
@@ -3264,10 +3313,10 @@ eslint-config-airbnb-base@^15.0.0:
     object.entries "^1.1.5"
     semver "^6.3.0"
 
-eslint-config-airbnb-typescript@^16.1.0:
-  version "16.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-typescript/-/eslint-config-airbnb-typescript-16.2.0.tgz#9193fafd62f1cbf444895f4495eae334baf3265b"
-  integrity sha512-OUaMPZpTOZGKd5tXOjJ9PRU4iYNW/Z5DoHIynjsVK/FpkWdiY5+nxQW6TiJAlLwVI1l53xUOrnlZWtVBVQzuWA==
+eslint-config-airbnb-typescript@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-typescript/-/eslint-config-airbnb-typescript-17.0.0.tgz#360dbcf810b26bbcf2ff716198465775f1c49a07"
+  integrity sha512-elNiuzD0kPAPTXjFWg+lE24nMdHMtuxgYoD30OyMD6yrW1AhFZPAg27VX7d3tzOErw+dgJTNWfRSDqEcXb4V0g==
   dependencies:
     eslint-config-airbnb-base "^15.0.0"
 
@@ -3295,28 +3344,28 @@ eslint-config-next@^12.1.6:
     eslint-plugin-react "^7.29.4"
     eslint-plugin-react-hooks "^4.5.0"
 
-eslint-config-prettier@^8.3.0:
+eslint-config-prettier@^8.5.0:
   version "8.5.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-sznm@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-sznm/-/eslint-config-sznm-0.2.1.tgz#65bacd63831f3ef0c5efbff1903008f7b9e1513f"
-  integrity sha512-5FekwRhXZALRyqRk8JeVzNaQojq1ih1p6IrMtYDKPbJqQ3Xct4Y20rquB6I0aHPxkoUypzatSOzEH47lKjRx7g==
+eslint-config-sznm@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sznm/-/eslint-config-sznm-1.0.0.tgz#0fcd14743013a44d2a47b41fcb4c4c19e92cd25e"
+  integrity sha512-DoOgrx3r8Icr0iymGZj1BY0HK8Agt6++xStQVFNqmUobiVhhXVNQcq19F+aBvXhwhH6E49f9BKIdugG7lnz9mA==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^5.9.0"
-    "@typescript-eslint/parser" "^5.9.0"
+    "@typescript-eslint/eslint-plugin" "^5.23.0"
+    "@typescript-eslint/parser" "^5.23.0"
     eslint-config-airbnb "^19.0.4"
     eslint-config-airbnb-base "^15.0.0"
-    eslint-config-airbnb-typescript "^16.1.0"
-    eslint-config-prettier "^8.3.0"
-    eslint-plugin-import "^2.25.4"
+    eslint-config-airbnb-typescript "^17.0.0"
+    eslint-config-prettier "^8.5.0"
+    eslint-plugin-import "^2.26.0"
     eslint-plugin-jsx-a11y "^6.5.1"
     eslint-plugin-prettier "^4.0.0"
-    eslint-plugin-react "^7.28.0"
-    eslint-plugin-react-hooks "^4.3.0"
-    eslint-plugin-sonarjs "^0.11.0"
+    eslint-plugin-react "^7.29.4"
+    eslint-plugin-react-hooks "^4.5.0"
+    eslint-plugin-sonarjs "^0.13.0"
 
 eslint-import-resolver-node@^0.3.6:
   version "0.3.6"
@@ -3345,7 +3394,7 @@ eslint-module-utils@^2.7.3:
     debug "^3.2.7"
     find-up "^2.1.0"
 
-eslint-plugin-import@^2.25.4, eslint-plugin-import@^2.26.0:
+eslint-plugin-import@^2.26.0:
   version "2.26.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.26.0.tgz#f812dc47be4f2b72b478a021605a59fc6fe8b88b"
   integrity sha512-hYfi3FXaM8WPLf4S1cikh/r4IxnO6zrhZbEGz2b660EJRbuxgpDS5gkCuYgGWg2xxh2rBuIr4Pvhve/7c31koA==
@@ -3389,12 +3438,12 @@ eslint-plugin-prettier@^4.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-react-hooks@^4.3.0, eslint-plugin-react-hooks@^4.5.0:
+eslint-plugin-react-hooks@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.5.0.tgz#5f762dfedf8b2cf431c689f533c9d3fa5dcf25ad"
   integrity sha512-8k1gRt7D7h03kd+SAAlzXkQwWK22BnK6GKZG+FJA6BAGy22CFvl8kCIXKpVux0cCxMWDQUPqSok0LKaZ0aOcCw==
 
-eslint-plugin-react@^7.28.0, eslint-plugin-react@^7.29.4:
+eslint-plugin-react@^7.29.4:
   version "7.29.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.29.4.tgz#4717de5227f55f3801a5fd51a16a4fa22b5914d2"
   integrity sha512-CVCXajliVh509PcZYRFyu/BoUEz452+jtQJq2b3Bae4v3xBUWPLCmtmBM+ZinG4MzwmxJgJ2M5rMqhqLVn7MtQ==
@@ -3414,10 +3463,10 @@ eslint-plugin-react@^7.28.0, eslint-plugin-react@^7.29.4:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
 
-eslint-plugin-sonarjs@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.11.0.tgz#46d18bc4066c66e490de057253b9cc97bde9f176"
-  integrity sha512-ei/WuZiL0wP+qx2KrxKyZs3+eDbxiGAhFSm3GKCOOAUkg+G2ny6TSXDB2j67tvyqHefi+eoQsAgGQvz+nEtIBw==
+eslint-plugin-sonarjs@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.13.0.tgz#c34d140cc90abaaed38f5a5201a2ccdebe398862"
+  integrity sha512-t3m7ta0EspzDxSOZh3cEOJIJVZgN/TlJYaBGnQlK6W/PZNbWep8q4RQskkJkA7/zwNpX0BaoEOSUUrqaADVoqA==
 
 eslint-scope@^5.1.1:
   version "5.1.1"
