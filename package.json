@@ -19,21 +19,21 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.0.2",
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "framer-motion": "^6.3.3",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.3.11",
     "next": "12.1.5",
-    "next-pwa": "^5.5.2",
+    "next-pwa": "^5.5.4",
     "next-seo": "^5.4.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.2",
     "@commitlint/cz-commitlint": "^17.0.0",
-    "@types/react": "^18.0.9",
+    "@types/react": "^18.0.12",
     "commitizen": "^4.2.4",
     "commitlint": "^17.0.2",
     "cross-env": "^7.0.3",
@@ -41,7 +41,7 @@
     "eslint-config-next": "^12.1.6",
     "eslint-config-sznm": "^1.0.0",
     "husky": "^8.0.1",
-    "lint-staged": "^12.4.1",
+    "lint-staged": "^12.5.0",
     "next-sitemap": "^2.5.28",
     "prettier": "^2.6.2",
     "standard-version": "^9.5.0",
