@@ -8,6 +8,7 @@ import {
   useColorMode,
   Flex,
 } from "@chakra-ui/react";
+import { NextSeo } from "next-seo";
 import Link from "next/link";
 
 import MotionBox from "lib/components/motion/Box";
@@ -17,10 +18,11 @@ const Page404 = () => {
 
   return (
     <Flex minHeight="70vh" direction="column" justifyContent="center">
+      <NextSeo title="404 Not Found" />
       <MotionBox
         animate={{ y: 20 }}
         transition={{ repeat: Infinity, duration: 2, repeatType: "reverse" }}
-        width={["100%", "70%", "60%", "60%"]}
+        width={{ base: "100%", sm: "70%", md: "60%" }}
         margin="0 auto"
       >
         <Image
@@ -28,7 +30,7 @@ const Page404 = () => {
           alt="Error 404 not found Illustration"
         />
       </MotionBox>
-      <Text textAlign="center" fontSize="xs">
+      <Text textAlign="center" fontSize="xs" color="gray">
         <ChakraLink
           href="https://stories.freepik.com/web"
           isExternal
@@ -39,13 +41,18 @@ const Page404 = () => {
       </Text>
 
       <Box marginY={4}>
-        <Heading textAlign="center">Page not Found.</Heading>
+        <Heading textAlign="center" size="lg">
+          Page not Found.
+        </Heading>
 
         <Box textAlign="center" marginTop={4}>
-          <Text>It&apos;s Okay!</Text>
+          <Text fontSize="sm" color="gray">
+            It&apos;s Okay!
+          </Text>
           <Link href="/" passHref>
             <Button
               backgroundColor={colorMode === "light" ? "gray.300" : "teal.500"}
+              size="sm"
             >
               Let&apos;s Head Back
             </Button>

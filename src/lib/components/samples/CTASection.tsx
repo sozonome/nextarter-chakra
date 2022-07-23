@@ -1,16 +1,12 @@
-import { Box, Button, Code, Flex, Image, Link } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Link } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
 
 const repoLink = "https://github.com/sozonome/nextarter-chakra";
 
 const CTASection = () => {
   return (
-    <Box textAlign={{ base: "center", md: "left" }} marginTop={8}>
-      <Flex
-        marginY={4}
-        justifyContent={{ base: "center", md: "left" }}
-        gridGap={2}
-      >
+    <Box textAlign="center">
+      <Flex marginY={4} justifyContent="center" gap={2}>
         <Link
           aria-label="Deploy to Vercel"
           isExternal
@@ -33,12 +29,8 @@ const CTASection = () => {
         </Link>
       </Flex>
 
-      <Box marginY={2}>
-        <Code>npx degit sozonome/nextarter-chakra {"<YOUR_APP_NAME>"}</Code>
-        <br />
-
+      <Flex justifyContent="center" alignItems="center" gap={2}>
         <Button
-          marginTop={2}
           as="a"
           href="https://github.com/sozonome/nextarter-chakra/generate"
           target="_blank"
@@ -46,13 +38,6 @@ const CTASection = () => {
         >
           Use This Template
         </Button>
-      </Box>
-
-      <Flex
-        justifyContent={{ base: "center", md: "left" }}
-        alignItems="center"
-        gridGap={2}
-      >
         <Button
           as="a"
           href={repoLink}
@@ -62,13 +47,6 @@ const CTASection = () => {
         >
           Open in Github
         </Button>
-        <Link href={repoLink} isExternal rel="noopener noreferrer">
-          <Image
-            align="center"
-            src="https://img.shields.io/github/stars/sozonome/nextarter-chakra?style=social"
-            alt="github stars"
-          />
-        </Link>
       </Flex>
     </Box>
   );
