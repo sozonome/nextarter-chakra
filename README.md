@@ -7,15 +7,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), added with [**Chakra UI**](https://chakra-ui.com) and [**TypeScript**](https://www.typescriptlang.org) setup.
 Start developing right away!
 
-## 🔋⚡ Battery Packed template
+## 🔋 ⚡ Battery Packed template
 
 - ✔️ toolings for linting, formatting, and conventions configured
 
-  `eslint`, `prettier`, `husky`, `lint-staged`, and `standard-version`
-
-- 📱 PWA-ready
-
-  `next-pwa` configured, disabled by default, just enable it through `next.config.js`
+  `eslint`, `prettier`, `husky`, `lint-staged`, `commitlint`, `commitizen`, and `standard-version`
 
 - 🔎 SEO optimization configured
 
@@ -50,11 +46,4 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
-
-## References
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Chakra UI](https://chakra-ui.com)
-- [TypeScript](https://www.typescriptlang.org)
+You can start editing the page by modifying `src/lib/pages/index.tsx`. The page auto-updates as you edit the file.

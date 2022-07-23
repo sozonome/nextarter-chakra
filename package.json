@@ -24,7 +24,6 @@
     "@emotion/styled": "^11.9.3",
     "framer-motion": "^6.5.1",
     "next": "12.2.0",
-    "next-pwa": "^5.5.4",
     "next-seo": "^5.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
