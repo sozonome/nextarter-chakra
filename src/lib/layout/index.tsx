@@ -1,8 +1,9 @@
 import { Box } from "@chakra-ui/react";
+import dynamic from "next/dynamic";
 import type { ReactNode } from "react";
 
-import Footer from "./Footer";
-import Header from "./Header";
+const Footer = dynamic(() => import("./Footer"));
+const Header = dynamic(() => import("./Header"));
 
 type LayoutProps = {
   children: ReactNode;
