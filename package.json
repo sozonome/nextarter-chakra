@@ -15,11 +15,7 @@
     "up": "yarn upgrade-interactive",
     "up-latest": "yarn up --latest",
     "release": "cross-env HUSKY=0 standard-version",
-    "push-release": "git push --follow-tags origin main",
-    "prepare": "husky install",
-    "postinstall": "husky install",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "push-release": "git push --follow-tags origin main"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.3.4",
@@ -43,7 +39,6 @@
     "eslint": "^8.25.0",
     "eslint-config-next": "^12.3.1",
     "eslint-config-sznm": "^1.0.0",
-    "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "next-sitemap": "^3.1.25",
     "prettier": "^2.7.1",
