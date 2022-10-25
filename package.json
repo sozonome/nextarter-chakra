@@ -1,7 +1,7 @@
 {
   "name": "nextarter-chakra",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": "sozonome",
   "scripts": {
     "dev": "next dev",
@@ -16,7 +16,10 @@
     "up-latest": "yarn up --latest",
     "release": "cross-env HUSKY=0 standard-version",
     "push-release": "git push --follow-tags origin main",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.3.4",

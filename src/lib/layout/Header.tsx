@@ -1,11 +1,26 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Spacer, Flex, HStack, Link } from "@chakra-ui/react";
 
 import ThemeToggle from "./ThemeToggle";
+
+const NavBarLinks = [
+  { name: "Home", link: "/" },
+  { name: "Work", link: "work" },
+  { name: "About", link: "about" },
+  { name: "Contact", link: "contact" },
+];
 
 const Header = () => {
   return (
     <Flex as="header" width="full" align="center">
-      <Box marginLeft="auto">
+      <HStack spacing="2em">
+        {NavBarLinks.map((linkItem) => (
+          <Link key={linkItem.name} href={linkItem.link}>
+            {linkItem.name}
+          </Link>
+        ))}
+      </HStack>
+      <Spacer />
+      <Box>
         <ThemeToggle />
       </Box>
     </Flex>
