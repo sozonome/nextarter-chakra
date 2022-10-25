@@ -13,6 +13,10 @@ Start developing right away!
 
   `eslint`, `prettier`, `husky`, `lint-staged`, `commitlint`, `commitizen`, and `standard-version`
 
+- 📱 PWA-ready
+
+  `next-pwa` configured, disabled by default, just enable it through `next.config.js`
+
 - 🔎 SEO optimization configured
 
   with `next-seo` and `next-sitemap`. you'll need to reconfigure or tinker with it to get it right according to your needs, but it's there if you need it.
@@ -28,19 +32,24 @@ Start developing right away!
 
 [![Depfu](https://badges.depfu.com/badges/9e426e58f99c3bd470987a3c6b014a96/overview.svg)](https://depfu.com/github/sozonome/nextarter-chakra?project_id=26148) [![Depfu](https://badges.depfu.com/badges/9e426e58f99c3bd470987a3c6b014a96/count.svg)](https://depfu.com/github/sozonome/nextarter-chakra?project_id=26148)
 
+## Pre-requisites
+
+1. [Node.js](https://nodejs.org/en/) or nvm installed.
+2. `yarn` installed.
+
 ## Getting Started
 
-You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
+1. You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
 
 ```bash
 npx degit sozonome/nextarter-chakra <YOUR_APP_NAME>
 ```
 
-Then, run the development server:
+2. After cloning the project, run this command: `yarn` or `yarn install`
+
+3. Then, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
