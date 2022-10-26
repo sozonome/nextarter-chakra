@@ -11,7 +11,7 @@ const NavBarLinks = [
 
 const Header = () => {
   return (
-    <Flex as="header" width="full" align="center">
+    <Flex width="full" align="center">
       <HStack spacing="2em">
         {NavBarLinks.map((linkItem) => (
           <Link key={linkItem.name} href={linkItem.link}>
