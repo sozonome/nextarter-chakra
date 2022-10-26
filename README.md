@@ -1,6 +1,7 @@
 # nextarter-chakra
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-chakra) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-chakra)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/aqmmai?referralCode=9lKVVo)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/nextarter-chakra)
 
