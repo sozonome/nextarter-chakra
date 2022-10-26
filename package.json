@@ -19,11 +19,11 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.3.4",
+    "@chakra-ui/react": "^2.3.6",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "framer-motion": "^7.3.6",
-    "next": "^12.3.1",
+    "next": "^13.0.0",
     "next-pwa": "^5.6.0",
     "next-seo": "^5.8.0",
     "react": "^18.2.0",
@@ -38,7 +38,7 @@
     "commitlint": "^17.1.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.25.0",
-    "eslint-config-next": "^12.3.1",
+    "eslint-config-next": "^13.0.0",
     "eslint-config-sznm": "^1.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
