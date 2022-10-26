@@ -49,14 +49,14 @@ const Page404 = () => {
           <Text fontSize="sm" color="gray">
             It&apos;s Okay!
           </Text>
-          <Link href="/" passHref>
-            <Button
-              backgroundColor={colorMode === "light" ? "gray.300" : "teal.500"}
-              size="sm"
-            >
-              Let&apos;s Head Back
-            </Button>
-          </Link>
+          <Button
+            as={Link}
+            href="/"
+            backgroundColor={colorMode === "light" ? "gray.300" : "teal.500"}
+            size="sm"
+          >
+            Let&apos;s Head Back
+          </Button>
         </Box>
       </Box>
     </Flex>
