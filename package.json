@@ -11,6 +11,7 @@
     "lint": "next lint",
     "lint:fix": "eslint src --fix && yarn format",
     "type-check": "tsc --noEmit",
+    "test:e2e": "playwright test",
     "format": "prettier --write src",
     "up": "yarn upgrade-interactive",
     "up-latest": "yarn up --latest",
@@ -33,6 +34,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^17.1.0",
     "@commitlint/cz-commitlint": "^17.1.2",
+    "@playwright/test": "^1.27.1",
     "@types/react": "^18.0.21",
     "commitizen": "^4.2.5",
     "commitlint": "^17.1.2",
