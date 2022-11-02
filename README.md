@@ -1,12 +1,13 @@
-# nextarter-chakra
+<img src="https://og.sznm.dev/api/generate?heading=nextarter-chakra&text=Next.js+template+with+Chakra-UI+and+TypeScript+setup.&template=color&center=true&height=320" />
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-chakra) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-chakra)
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/aqmmai?referralCode=9lKVVo)
+<div align="center">
+  <a href="https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-chakra" target="_blank"><img src="https://vercel.com/button" alt="Deploy with Vercel" /></a> <a href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-chakra" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a> <a href="https://railway.app/new/template/aqmmai?referralCode=9lKVVo" target="_blank"><img src="https://railway.app/button.svg" alt="Deploy on Railway" height="32px" /></a>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/nextarter-chakra)
+<a href="https://stackblitz.com/github/sozonome/nextarter-chakra" target="_blank"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt="Open in StackBlitz" /></a>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), added with [**Chakra UI**](https://chakra-ui.com) and [**TypeScript**](https://www.typescriptlang.org) setup.
-Start developing right away!
+  <p>This is a <a href="https://nextjs.org/" target="_blank">Next.js</a> project bootstrapped with <code>create-next-app</code>, added with <a href="https://chakra-ui.com" target="_blank"><b>Chakra UI</b></a> and <a href="https://www.typescriptlang.org" target="_blank"><b>TypeScript</b></a> setup. <br/> Start developing right away!</p>
+
+</div>
 
 ## 🔋 ⚡ Battery Packed template
 
@@ -64,5 +65,6 @@ You can start editing the page by modifying `src/lib/pages/index.tsx`. The page 
 2. Open another terminal (or new terminal tab, don't cancel / close the production server), then run the test with `yarn test:e2e`.
 
 References:
+
 - https://nextjs.org/docs/testing#playwright
   - https://nextjs.org/docs/testing#running-your-playwright-tests
