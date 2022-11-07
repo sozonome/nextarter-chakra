@@ -1,4 +1,4 @@
-import { Box, useColorModeValue } from "@chakra-ui/react";
+import { Box, Container, useColorModeValue } from "@chakra-ui/react";
 import type { ReactNode } from "react";
 
 import ConfettiBg from "./backgrounds/ConfettiBg";
@@ -14,6 +14,8 @@ const Layout = ({ children }: LayoutProps) => {
 
   return (
     <Box
+      as={Container}
+      maxW="7xl"
       bg={useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK)}
       margin="0 auto"
       maxWidth={800}
