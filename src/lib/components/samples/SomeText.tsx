@@ -7,7 +7,7 @@ const SomeText = () => {
         nextarter-chakra
       </Heading>
 
-      <Text fontSize="xs" color="gray.500">
+      <Text fontSize="xs">
         This is a Next.js app with Chakra-UI and TypeScript setup.
       </Text>
     </Grid>
