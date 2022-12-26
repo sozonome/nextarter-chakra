@@ -12,9 +12,14 @@ const CTASection = () => {
             aria-label="Deploy to Vercel"
             isExternal
             rel="noopener noreferrer"
-            href="https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-chakra"
+            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsozonome%2Fnextarter-chakra"
           >
-            <Image src="https://vercel.com/button" alt="Vercel deploy button" />
+            <Image
+              src="https://vercel.com/button"
+              alt="Vercel deploy button"
+              width="92px"
+              height="32px"
+            />
           </Link>
 
           <Link
@@ -26,11 +31,13 @@ const CTASection = () => {
             <Image
               src="https://www.netlify.com/img/deploy/button.svg"
               alt="Netlify deploy button"
+              height="32px"
+              width="146px"
             />
           </Link>
         </Flex>
 
-        <Flex justifyContent="center" marginY={4} transform="scale(0.85)">
+        <Flex justifyContent="center" marginY={4}>
           <Link
             aria-label="Deploy on Railway"
             isExternal
@@ -39,6 +46,8 @@ const CTASection = () => {
           >
             <Image
               src="https://railway.app/button.svg"
+              width="183px"
+              height="40px"
               alt="Railway deploy button"
             />
           </Link>
