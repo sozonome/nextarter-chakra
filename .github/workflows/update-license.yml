@@ -1,0 +1,11 @@
+name: Update License
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Update the license once a year on January 1
+    - cron: '0 0 1 1 *'
+
+jobs:
+  update-license:
+    uses: sozonome/workflows/.github/workflows/update-license.yml@main
