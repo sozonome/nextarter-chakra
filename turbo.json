@@ -1,0 +1,16 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "outputs": [".next/**"],
+      "env": []
+    },
+    "lint": {
+      "outputs": [],
+      "inputs": [".eslintrc.*", "src/**"]
+    },
+    "type-check": {
+      "outputs": ["*.tsbuildinfo"]
+    }
+  }
+}
