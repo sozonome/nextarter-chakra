@@ -10,7 +10,7 @@
     },
     {
       "name": "Next.js: debug client-side",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "request": "launch",
       "url": "http://localhost:3000"
     },
@@ -19,7 +19,6 @@
       "type": "node-terminal",
       "request": "launch",
       "command": "yarn dev",
-      "console": "integratedTerminal",
       "serverReadyAction": {
         "pattern": "started server on .+, url: (https?://.+)",
         "uriFormat": "%s",
