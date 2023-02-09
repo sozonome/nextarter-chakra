@@ -1,4 +1,4 @@
-import { Grid, Heading, Text } from "@chakra-ui/react";
+import { Grid, Heading, Text } from '@chakra-ui/react';
 
 const SomeText = () => {
   return (
