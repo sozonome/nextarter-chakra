@@ -1,6 +1,6 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex } from '@chakra-ui/react';
 
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from './ThemeToggle';
 
 const Header = () => {
   return (
