@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", "group:all"],
+  "major": {
+    "enabled": false
+  },
+  "updatePinnedDependencies": false,
+  "stabilityDays": 2,
+  "timezone": "Asia/Jakarta",
+  "schedule": ["* 0 * * 1"]
+}
