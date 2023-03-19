@@ -36,22 +36,6 @@ const CTASection = () => {
             />
           </Link>
         </Flex>
-
-        <Flex justifyContent="center" marginY={4}>
-          <Link
-            aria-label="Deploy on Railway"
-            isExternal
-            rel="noopener noreferrer"
-            href="https://railway.app/new/template/aqmmai?referralCode=9lKVVo"
-          >
-            <Image
-              src="https://railway.app/button.svg"
-              width="183px"
-              height="40px"
-              alt="Railway deploy button"
-            />
-          </Link>
-        </Flex>
       </Box>
 
       <Flex justifyContent="center" alignItems="center" gap={2}>
