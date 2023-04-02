@@ -37,7 +37,7 @@
 ## Pre-requisites
 
 1. [Node.js](https://nodejs.org/en/) or nvm installed.
-2. `yarn` installed.
+2. `pnpm` installed.
 
 ## Getting Started
 
@@ -47,12 +47,12 @@
 npx degit sozonome/nextarter-chakra <YOUR_APP_NAME>
 ```
 
-2. After cloning the project, run this command: `yarn` or `yarn install`
+2. After cloning the project, run this command: `pnpm` or `pnpm install`
 
 3. Then, run the development server:
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -61,8 +61,8 @@ You can start editing the page by modifying `src/lib/pages/index.tsx`. The page 
 
 ## How to Run e2e Test (in local machine)
 
-1. Build production with `yarn build`, then run the production build using `yarn start`.
-2. Open another terminal (or new terminal tab, don't cancel / close the production server), then run the test with `yarn test:e2e`.
+1. Build production with `pnpm build`, then run the production build using `pnpm start`.
+2. Open another terminal (or new terminal tab, don't cancel / close the production server), then run the test with `pnpm test:e2e`.
 
 References:
 
