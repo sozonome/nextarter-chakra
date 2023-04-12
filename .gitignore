@@ -47,3 +47,6 @@ sitemap*.xml
 
 # Turbo
 .turbo
+
+# VS Code
+.vscode/settings.json
