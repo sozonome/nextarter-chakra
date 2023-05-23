@@ -11,19 +11,19 @@
 
 ## 🔋 ⚡ Battery Packed template
 
-- 🚀 Next.js 13 - React 18
-- ⛓️ TypeScript
-- Chakra-UI v2
-- ✔️ toolings for linting, formatting, and conventions configured 
+- 🚀 **Next.js 13** - **React 18**
+- ⛓️ **TypeScript**
+- **Chakra-UI** v2
+- ✔️ **toolings** for linting, formatting, and conventions configured 
   - `eslint`, `prettier`, `husky`, `lint-staged`, `commitlint`, `commitizen`, and `standard-version`
   - `pre-commit`, `pre-push`, `commit-msg`, `prepare-commit-msg` hook configured
-- 📱 PWA-ready - `next-pwa` configured, disabled by default, just enable it through `next.config.js`
+- 📱 **PWA-ready** - `next-pwa` configured, disabled by default, just enable it through `next.config.js`
 - 🔎 SEO optimization configured - with `next-seo` and `next-sitemap`. 
   - you'll need to reconfigure or tinker with it to get it right according to your needs, but it's there if you need it.
 - 🎨 basic responsive layout configured - don't need it? just remove it 😃
-- 🤖 Automatic Dependency Update with [Renovate](https://renovatebot.com/) 
-- 🏎️ Turbo setup
-- 🧪 Playwright E2E Test
+- 🤖 **Automatic Dependency Update** with [Renovate](https://renovatebot.com/) 
+- 🏎️ **Turbo** setup
+- 🧪 **Playwright** E2E Test
 
 [![CodeFactor](https://www.codefactor.io/repository/github/sozonome/nextarter-chakra/badge)](https://www.codefactor.io/repository/github/sozonome/nextarter-chakra)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=alert_status)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=bugs)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=code_smells)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-chakra&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-chakra)
