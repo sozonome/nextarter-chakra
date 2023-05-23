@@ -32,8 +32,6 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-[![Depfu](https://badges.depfu.com/badges/9e426e58f99c3bd470987a3c6b014a96/overview.svg)](https://depfu.com/github/sozonome/nextarter-chakra?project_id=26148) [![Depfu](https://badges.depfu.com/badges/9e426e58f99c3bd470987a3c6b014a96/count.svg)](https://depfu.com/github/sozonome/nextarter-chakra?project_id=26148)
-
 ## Pre-requisites
 
 1. [Node.js](https://nodejs.org/en/) or nvm installed.
