@@ -1,3 +1,5 @@
+'use client';
+
 import {
   Box,
   Button,
@@ -9,7 +11,6 @@ import {
   Flex,
 } from '@chakra-ui/react';
 import Link from 'next/link';
-import { NextSeo } from 'next-seo';
 
 import MotionBox from '~/lib/components/motion/Box';
 
@@ -18,7 +19,6 @@ const Page404 = () => {
 
   return (
     <Flex minHeight="70vh" direction="column" justifyContent="center">
-      <NextSeo title="404 Not Found" />
       <MotionBox
         animate={{ y: 20 }}
         transition={{ repeat: Infinity, duration: 2, repeatType: 'reverse' }}

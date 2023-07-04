@@ -19,16 +19,24 @@
     "jsx": "preserve",
     "baseUrl": "src",
     "paths": {
-      "~/*": ["./*"]
+      "~/*": [
+        "./*"
+      ]
     },
-    "incremental": true
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "src",
-    "commitlint.config.js"
+    "commitlint.config.js",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
