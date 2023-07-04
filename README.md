@@ -18,7 +18,7 @@
   - `eslint`, `prettier`, `husky`, `lint-staged`, `commitlint`, `commitizen`, and `standard-version`
   - `pre-commit`, `pre-push`, `commit-msg`, `prepare-commit-msg` hook configured
 - 📱 **PWA-ready** - `next-pwa` configured, disabled by default, just enable it through `next.config.js`
-- 🔎 SEO optimization configured - with `next-seo` and `next-sitemap`. 
+- 🔎 SEO optimization configured - with `next-sitemap`. 
   - you'll need to reconfigure or tinker with it to get it right according to your needs, but it's there if you need it.
 - 🎨 basic responsive layout configured - don't need it? just remove it 😃
 - 🤖 **Automatic Dependency Update** with [Renovate](https://renovatebot.com/) 

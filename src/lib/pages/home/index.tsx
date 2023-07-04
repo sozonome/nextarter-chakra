@@ -1,5 +1,6 @@
+'use client';
+
 import { Flex } from '@chakra-ui/react';
-import { NextSeo } from 'next-seo';
 
 import CTASection from '~/lib/components/samples/CTASection';
 import SomeImage from '~/lib/components/samples/SomeImage';
@@ -16,7 +17,6 @@ const Home = () => {
       mb={8}
       w="full"
     >
-      <NextSeo title="Home" />
       <SomeText />
       <SomeImage />
       <CTASection />
