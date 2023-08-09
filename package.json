@@ -35,12 +35,12 @@
     "react-icons": "^4.10.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.6",
     "@commitlint/cz-commitlint": "^17.5.0",
     "@playwright/test": "^1.36.1",
     "@types/react": "^18.2.15",
     "commitizen": "^4.3.0",
-    "commitlint": "^17.6.6",
     "cross-env": "^7.0.3",
     "eslint": "^8.45.0",
     "eslint-config-next": "^13.4.10",
