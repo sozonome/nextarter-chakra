@@ -54,6 +54,5 @@
   "engines": {
     "node": ">=16.x.x",
     "pnpm": ">=8"
-  },
-  "packageManager": "pnpm@8.8.0"
+  }
 }
