@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 
 import Providers from '~/app/providers';
 import Layout from '~/lib/layout';
@@ -12,10 +12,6 @@ const APP_NAME = 'nextarter-chakra';
 export const metadata: Metadata = {
   title: { default: APP_NAME, template: '%s | nextarter-chakra' },
   description: 'Next.js + chakra-ui + TypeScript template',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-  },
   applicationName: APP_NAME,
   appleWebApp: {
     capable: true,
@@ -25,7 +21,6 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false,
   },
-  themeColor: '#FFFFFF',
   openGraph: {
     url: 'https://nextarter-chakra.sznm.dev',
     title: 'nextarter-chakra',
@@ -39,6 +34,12 @@ export const metadata: Metadata = {
     creator: '@sozonome',
     card: 'summary_large_image',
   },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#FFFFFF',
 };
 
 const RootLayout = ({ children }: RootLayoutProps) => {
