@@ -6,9 +6,9 @@ import {
 
 import customTheme from '~/lib/styles/theme/index';
 
-interface ChakraProps {
+type ChakraProps = {
   children: React.ReactNode;
-}
+};
 
 export const Chakra = ({ children }: ChakraProps) => {
   return (
