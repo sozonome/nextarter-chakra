@@ -1,5 +1,3 @@
-'use client';
-
 import {
   Box,
   Button,
@@ -7,7 +5,6 @@ import {
   Image,
   Text,
   Link as ChakraLink,
-  useColorMode,
   Flex,
 } from '@chakra-ui/react';
 import Link from 'next/link';
@@ -15,8 +12,6 @@ import Link from 'next/link';
 import MotionBox from '~/lib/components/motion/Box';
 
 const Page404 = () => {
-  const { colorMode } = useColorMode();
-
   return (
     <Flex minHeight="70vh" direction="column" justifyContent="center">
       <MotionBox
@@ -49,12 +44,7 @@ const Page404 = () => {
           <Text fontSize="sm" color="gray">
             It&apos;s Okay!
           </Text>
-          <Button
-            as={Link}
-            href="/"
-            backgroundColor={colorMode === 'light' ? 'gray.300' : 'teal.500'}
-            size="sm"
-          >
+          <Button as={Link} href="/" size="sm">
             Let&apos;s Head Back
           </Button>
         </Box>

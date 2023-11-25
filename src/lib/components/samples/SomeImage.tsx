@@ -1,3 +1,5 @@
+'use client';
+
 import { Flex, useColorMode } from '@chakra-ui/react';
 
 import HelperImage from './HelperImage';

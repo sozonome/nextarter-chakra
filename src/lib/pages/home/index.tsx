@@ -1,5 +1,3 @@
-'use client';
-
 import { Flex } from '@chakra-ui/react';
 
 import CTASection from '~/lib/components/samples/CTASection';
