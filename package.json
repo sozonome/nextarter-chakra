@@ -19,7 +19,7 @@
     "up-latest": "pnpm up-interactive -L",
     "release": "cross-env HUSKY=0 standard-version",
     "push-release": "git push --follow-tags origin main",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@chakra-ui/next-js": "^2.2.0",
