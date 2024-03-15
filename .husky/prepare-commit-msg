@@ -1,1 +1,1 @@
-exec </dev/tty && pnpm cz --hook || true
+exec < /dev/tty && pnpm cz --hook || true
