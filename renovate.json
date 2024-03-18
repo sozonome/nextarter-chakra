@@ -7,5 +7,6 @@
   "updatePinnedDependencies": false,
   "stabilityDays": 2,
   "timezone": "Asia/Jakarta",
-  "schedule": ["before 1am on Monday"]
+  "schedule": ["before 1am on Monday"],
+  "rangeStrategy": "bump"
 }
