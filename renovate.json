@@ -8,5 +8,6 @@
   "stabilityDays": 2,
   "timezone": "Asia/Jakarta",
   "schedule": ["before 1am on Monday"],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "ignoreDeps": ["node", "pnpm"]
 }
