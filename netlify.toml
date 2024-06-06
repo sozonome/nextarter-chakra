@@ -1,5 +1,5 @@
 [build]
-  command = 'pnpm build'
+  command = 'pnpm turbo build'
 
 [build.environment]
-  NODE_VERSION="18"
+  NODE_VERSION="20"
