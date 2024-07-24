@@ -1,1 +1,1 @@
-pnpm check:turbo --output-logs=hash-only
+pnpm check:turbo
