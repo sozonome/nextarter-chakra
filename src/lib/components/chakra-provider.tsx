@@ -1,5 +1,5 @@
 import {
-  ChakraProvider,
+  ChakraProvider as BaseChakraProvider,
   ColorModeScript,
   cookieStorageManager,
 } from '@chakra-ui/react';
@@ -10,19 +10,19 @@ type ChakraProps = {
   children: React.ReactNode;
 };
 
-export const Chakra = ({ children }: ChakraProps) => {
+export const ChakraProvider = ({ children }: ChakraProps) => {
   return (
     <>
       <ColorModeScript
         initialColorMode={customTheme.config?.initialColorMode}
         type="cookie"
       />
-      <ChakraProvider
+      <BaseChakraProvider
         colorModeManager={cookieStorageManager}
         theme={customTheme}
       >
         {children}
-      </ChakraProvider>
+      </BaseChakraProvider>
     </>
   );
 };

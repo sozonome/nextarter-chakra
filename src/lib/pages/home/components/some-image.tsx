@@ -2,9 +2,9 @@
 
 import { Flex, useColorMode } from '@chakra-ui/react';
 
-import HelperImage from './HelperImage';
+import { HelperImage } from './helper-image';
 
-const SomeImage = () => {
+export const SomeImage = () => {
   const { colorMode } = useColorMode();
 
   return (
@@ -15,5 +15,3 @@ const SomeImage = () => {
     </Flex>
   );
 };
-
-export default SomeImage;

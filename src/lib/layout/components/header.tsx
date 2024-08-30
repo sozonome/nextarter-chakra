@@ -1,8 +1,8 @@
 import { Box, Flex } from '@chakra-ui/react';
 
-import ThemeToggle from './ThemeToggle';
+import { ThemeToggle } from './theme-toggle';
 
-const Header = () => {
+export const Header = () => {
   return (
     <Flex as="header" width="full" align="center">
       <Box marginLeft="auto">
@@ -11,5 +11,3 @@ const Header = () => {
     </Flex>
   );
 };
-
-export default Header;

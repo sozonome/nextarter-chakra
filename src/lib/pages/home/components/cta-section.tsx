@@ -3,7 +3,7 @@ import { AiFillGithub } from 'react-icons/ai';
 
 const repoLink = 'https://github.com/sozonome/nextarter-chakra';
 
-const CTASection = () => {
+export const CTASection = () => {
   return (
     <Box textAlign="center">
       <Box transform="scale(0.85)">
@@ -58,5 +58,3 @@ const CTASection = () => {
     </Box>
   );
 };
-
-export default CTASection;

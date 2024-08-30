@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 
-import Providers from '~/app/providers';
-import Layout from '~/lib/layout';
+import { Layout } from '~/lib/layout';
+import { RootProviders } from '~/lib/providers/root';
 
 type RootLayoutProps = {
   children: React.ReactNode;
@@ -46,9 +46,9 @@ const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en">
       <body>
-        <Providers>
+        <RootProviders>
           <Layout>{children}</Layout>
-        </Providers>
+        </RootProviders>
       </body>
     </html>
   );

@@ -9,9 +9,9 @@ import {
 } from '@chakra-ui/react';
 import Link from 'next/link';
 
-import MotionBox from '~/lib/components/motion/Box';
+import { MotionBox } from '~/lib/components/motion-box';
 
-const Page404 = () => {
+export const Page404 = () => {
   return (
     <Flex minHeight="70vh" direction="column" justifyContent="center">
       <MotionBox
@@ -52,5 +52,3 @@ const Page404 = () => {
     </Flex>
   );
 };
-
-export default Page404;

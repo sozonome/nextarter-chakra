@@ -1,6 +1,6 @@
 import { Grid, Heading, Text } from '@chakra-ui/react';
 
-const SomeText = () => {
+export const SomeText = () => {
   return (
     <Grid textAlign="center">
       <Heading as="h1" size="lg">
@@ -13,5 +13,3 @@ const SomeText = () => {
     </Grid>
   );
 };
-
-export default SomeText;
