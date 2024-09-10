@@ -9,22 +9,15 @@ import {
 } from '@chakra-ui/react';
 import Link from 'next/link';
 
-import { MotionBox } from '~/lib/components/motion-box';
-
 export const Page404 = () => {
   return (
     <Flex minHeight="70vh" direction="column" justifyContent="center">
-      <MotionBox
-        animate={{ y: 20 }}
-        transition={{ repeat: Infinity, duration: 2, repeatType: 'reverse' }}
-        width={{ base: '100%', sm: '70%', md: '60%' }}
+      <Image
         margin="0 auto"
-      >
-        <Image
-          src="/404 Error-pana.svg"
-          alt="Error 404 not found Illustration"
-        />
-      </MotionBox>
+        width={{ base: '100%', sm: '70%', md: '60%' }}
+        src="/404 Error-pana.svg"
+        alt="Error 404 not found Illustration"
+      />
       <Text textAlign="center" fontSize="xs" color="gray">
         <ChakraLink
           href="https://stories.freepik.com/web"
