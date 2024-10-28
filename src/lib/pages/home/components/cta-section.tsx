@@ -10,7 +10,7 @@ export const CTASection = () => {
         <Flex marginY={4} justifyContent="center" gap={2}>
           <Link
             aria-label="Deploy to Vercel"
-            isExternal
+            target="_blank"
             rel="noopener noreferrer"
             href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsozonome%2Fnextarter-chakra"
           >
@@ -23,7 +23,7 @@ export const CTASection = () => {
 
           <Link
             aria-label="Deploy to Netlify"
-            isExternal
+            target="_blank"
             rel="noopener noreferrer"
             href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-chakra"
           >
@@ -37,22 +37,19 @@ export const CTASection = () => {
       </Box>
 
       <Flex justifyContent="center" alignItems="center" gap={2}>
-        <Button
-          as="a"
-          href="https://github.com/sozonome/nextarter-chakra/generate"
-          target="_blank"
-          size="sm"
-        >
-          Use This Template
+        <Button asChild size="sm">
+          <a
+            href="https://github.com/sozonome/nextarter-chakra/generate"
+            target="_blank"
+          >
+            Use This Template
+          </a>
         </Button>
-        <Button
-          as="a"
-          href={repoLink}
-          target="_blank"
-          leftIcon={<AiFillGithub />}
-          size="sm"
-        >
-          Open in Github
+        <Button asChild size="sm">
+          <a href={repoLink} target="_blank">
+            <AiFillGithub />
+            Open in Github
+          </a>
         </Button>
       </Flex>
     </Box>
