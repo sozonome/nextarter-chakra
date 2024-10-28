@@ -3,7 +3,7 @@ import { Grid, Heading, Text } from '@chakra-ui/react';
 export const SomeText = () => {
   return (
     <Grid textAlign="center">
-      <Heading as="h1" size="lg">
+      <Heading as="h1" size="2xl" fontWeight="bold">
         nextarter-chakra
       </Heading>
 

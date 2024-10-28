@@ -5,7 +5,7 @@ export const Footer = () => {
     <Flex as="footer" width="full" justifyContent="center">
       <Text fontSize="sm">
         {new Date().getFullYear()} -{' '}
-        <Link href="https://sznm.dev" isExternal rel="noopener noreferrer">
+        <Link href="https://sznm.dev" target="_blank" rel="noopener noreferrer">
           sznm.dev
         </Link>
       </Text>

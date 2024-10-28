@@ -1,6 +1,6 @@
+import { Button } from '@/components/ui/button';
 import {
   Box,
-  Button,
   Heading,
   Image,
   Text,
@@ -21,7 +21,7 @@ export const Page404 = () => {
       <Text textAlign="center" fontSize="xs" color="gray">
         <ChakraLink
           href="https://stories.freepik.com/web"
-          isExternal
+          target="_blank"
           rel="noopener noreferrer"
         >
           Illustration by Freepik Stories
@@ -37,8 +37,8 @@ export const Page404 = () => {
           <Text fontSize="sm" color="gray">
             It&apos;s Okay!
           </Text>
-          <Button as={Link} href="/" size="sm">
-            Let&apos;s Head Back
+          <Button asChild size="sm">
+            <Link href="/">Let&apos;s Head Back</Link>
           </Button>
         </Box>
       </Box>
