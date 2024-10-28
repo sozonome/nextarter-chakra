@@ -17,7 +17,6 @@
 - ✔️ **toolings** for linting, formatting, and conventions configured
   - `eslint`, `prettier`, `husky`, `lint-staged`, `commitlint`, `commitizen`, and `standard-version`
   - `pre-commit`, `pre-push`, `commit-msg`, `prepare-commit-msg` hook configured
-- 📱 **PWA-ready** - `next-pwa` configured, enabled by default, just disable it through `next.config.js`
 - 🔎 SEO optimization configured - with `next-sitemap`.
   - you'll need to reconfigure or tinker with it to get it right according to your needs, but it's there if you need it.
 - 🎨 basic responsive layout configured - don't need it? just remove it 😃
