@@ -18,6 +18,7 @@ export const CTASection = () => {
               src="https://vercel.com/button"
               alt="Vercel deploy button"
               height={10}
+              fit="contain"
             />
           </Link>
 
@@ -31,6 +32,7 @@ export const CTASection = () => {
               src="https://www.netlify.com/img/deploy/button.svg"
               alt="Netlify deploy button"
               height={10}
+              fit="contain"
             />
           </Link>
         </Flex>
